@@ -5,3 +5,6 @@ The TALOS architecture is a fully democratic distributed system: it unifies all 
 The second pillar is modularity: all the code is split into separate parts, called MicroServices, that run simultaneously and asynchronously. This reinforces the stability and reproducibility of the running system, while allowing for continuous integration and testing of new MicroServices, even in the active system.
 
 CERN and the AEgIS Collaboration are currently discussing the open-source licence to use for releasing the software: the code will be uploaded as soon as the licence will be approved by all parties.
+
+
+https://zenodo.org/badge/728129607.svg
