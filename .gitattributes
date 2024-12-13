@@ -1,0 +1,5 @@
+*.vi diff=lvdiff
+*.ctl diff=lvdiff
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.lvlibp filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text

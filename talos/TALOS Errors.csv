@@ -1,0 +1,336 @@
+5000,Guardian,0
+5001,Cannot launch multiple instances of this uService.,0
+5002,Guardian List: Key not found,3
+5003,Impossible to launch the uService: it is not present or not valid.,2
+5004,Guardian not online!,4
+5005,Impossible to reach the Guardian,3
+5006,uService not responding: attempt to restart it,1
+5007,Impossible to restart hanged uService!,2
+5008,Impossible to decode Guardian Pat,0
+5009,Impossible to locate uService class on disk,2
+5010,Impossible to decode Guardian I Exist message,0
+5011,Guardian: Error while re-registering to SV value change notification updates,1
+5012,Error during the ABORT Status Check,4
+5013,Error while processing the ABORT message!,4
+5014,Thou shall not start!,0
+5015,Cannot understand the Run number message from DAQ Manager,1
+5016,Error while Init the Highlanders List,3
+5017,Error in writing the Guardian Personal Log,0
+5018,Error while killing the uService!,0
+5019,Couldn't read the Go-NoGo GUID,1
+5020,Error while purging uService from local list,0
+5021,Error in clearing the local SV in Init,3
+5022,Error in Init ABORT,4
+5023,Error in Init the Guardian List,3
+5024,Error in creating the Init window,3
+5025,Error in generating the PC List,3
+5026,Error in Init the uService List,3
+5027,Error in generating the queues,3
+5028,Error in starting the TCP Communications,3
+5029,Error in launching the uServices at Startup,3
+5030,Error while destroying everything at the end,0
+5031,Abort Check Infinite Message manager error,4
+5032,Guardian Check Infinite Message manager error,4
+5033,uService Check Infinite Message manager error,4
+5034,Error while generating the list of uServices to launch at startup,3
+5035,GD: Error while processing the Ready to Launch message,1
+5036,Error inscheduling the Guardian Recheck!,3
+5037,Error in shutting down the system!,0
+5038,Error in broadcasting a message to all the Guardians,1
+5039,GD: Error in sending the message to a uService!,1
+5040,Error in checking the status of the other Guardians,3
+5041,Error while updating the lists after launching a uService,3
+5042,Error in sending a message to another uService,1
+5043,Error in processing the Request from the uService,2
+5044,Error in launching the Git Updater VI,0
+5045,Error while checking the status of the uServices!,3
+5046,Error in launching the Update from Git Confirmation Window,0
+5047,Error in the Update from Git Confirmation Window,0
+5048,Error loading the FPGA Interface,0
+5049,Error in generating the FPGA List,0
+5100,Father of All uServices,0
+5101,Impossible to subscribe to the SV Value Update Notification.,0
+5102,Wrong message!,2
+5103,Error while parsing the front panel items: abort.,3
+5104,FOAM: Error while re-registering to SV value change notification updates,2
+5105,FOAM: Error while creating the Personal Log,0
+5106,FOAM: Error while writing in the Personal Log,0
+5107,Error getting SV  to subscribe,3
+5108,Error getting value from GUI - wrong type,2
+5109,Error enqueuing Update GUI,0
+5110,Error in sending a message to the Kasli,2
+5111,Error in extracting the value from the GUI ,2
+5112,Error in updating indicator value!,0
+5113,Error in enqueing the button pressed event,0
+5114,Error in sending delayed message to the consumer,0
+5115,Error enabling/disabling control,0
+5200,TALOS Misc,0
+5201,uService List: Key not found,2
+5202,CIRCUS Configuration Parameter: Parameter not found,2
+5203,TALOS Configuration Parameter: Parameter not found,2
+5204,Error Queue unreachable,3
+5205,Error Log File Error,0
+5206,System Log File Error,0
+5207,The program should never enter this part of the code!,3
+5208,Infinite message to stop not found,0
+5209,Warning: Infinite Message already present,0
+5210,Error while rotating the log file!,0
+5211,uService List: Added a uService already present in the list!,0
+5212,The reference to the uS List does not exist,3
+5213,Distributed uService List: key not found,2
+5214,Impossible to locate ABORT on the network: deployed one in locale,0
+5215,"At least one SV was found, but an error occurred",2
+5216,TALOS Configuration Parameter: Init Error,3
+5217,DAQ SCP Error!,1
+5218,Impossible to send data to the DAQ,1
+5219,Waveform Chart: Uncorrect data type,0
+5220,Warning: uService selected not present in the uService List,0
+5221,Impossible to cast the parameter(s) of the message to the correct datatype,2
+5222,Error while (un)deploying SV,4
+5223,"Invalid (A)SV address, and no SV Name specified",2
+5224,Error while contacting the Shared Variables Engine (firewall blocked?),4
+5225,No SV with the specified name was found in the network,2
+5226,Error while opening the specified SV,1
+5227,Error while writing the ASV,1
+5228,Error while reading the ASV,1
+5229,Error in closing the ASV,1
+5230,CIRCUS Configuration Parameter: Init Error,3
+5231,Error Memory: Error while Init,3
+5232,Error while getting the PC name,3
+5233,Error while initialising the Error Filter,3
+5234,Impossible to add the error to the Error Filter,0
+5235,Impossible to retrieve the error from the Error Filter,0
+5236,Impossible to clear the error from the Error Filter,3
+5237,Error while destroying the reference of the Error Filter,0
+5238,Error: Criticality Level out of boundaries in one of the two CVS files,0
+5239,Error while creating the list of parameters,3
+5240,Error while getting the Class Name,2
+5241,Error updating Is in Packed Library? global variable,3
+5242,Error converting Shared Variable refnum to control,0
+5243,Error checking uService status,2
+5244,AF error while sending a message,4
+5245,Error in generating the CIRCUS Root Path,3
+5246,Error in generating the TALOS Root Path,3
+5247,Error in generating the CIRCUS SV Path,3
+5248,Error in the Infinite Message manager,3
+5249,Error while launching the Temporised Pop-Up Window!,0
+5250,Error in reading the ABORT SV: taking it for True,4
+5251,Error while deploying a local copy of ABORT because could not access remote one!,3
+5252,Error in setting ABORT!,3
+5253,PC IP: ID not found,3
+5254,Error while pinging the machine!,1
+5255,Error in reading the CSV file,2
+5256,FOAD: can't send the config to the DAQ,1
+5257,Impossible to send data to the display,0
+5258,Impossible to load the SubPanel,0
+5259,Timeout not valid,2
+5260,DAQ Sender: impossible to decode the message to send,2
+5261,DAQ Sender: error in performing the trick,0
+5270,DAQ Manager: error initialising the DAQ control object,0
+5271,DAQ Manager: error initialising the DAQ communication object,0
+5272,DAQ Manager: error starting the RUN,0
+5273,DAQ Manager: error stopping the RUN,0
+5274,DAQ Manager: error getting the DAQ status,0
+5300,Common GUI,0
+5301,Impossible to update the Guardians List,0
+5302,Impossible to update the Subpanel,0
+5303,Impossible to update the ABORT LED,0
+5304,Impossible to update the Guardian ID,0
+5305,Impossible to update the FPGA Log,0
+5306,Impossible to update the Error Details,0
+5307,Impossible to update the Listbox Error,0
+5307,Error while updating the GUI uService List,0
+5308,Error while initialising all the fields,0
+5309,Impossible to update the Run Number in the Common GUI,0
+5310,Failed to update parameters of Run LED in the Common GUI,0
+5311,Error in setting the color for the ABORT LED in Ignore Safe Mode modality,3
+5312,Error in setting the background image!,0
+5313,Error in operating the STOP button cover,0
+5314,Error in switching uService view,0
+5350,TCP Comms,0
+5351,TCP Server: first message not received,0
+5352,TCP Server: first message wrong,3
+5353,TCP Server: Unknown error while opening the connection,3
+5354,TCP Server: Init error,3
+5355,TCP Writer/Listener: Error while closing the connection,0
+5356,TCP Listener: Error decoding the message received,1
+5357,TCP Writer: Set IP: Error decoding the IP string,3
+5358,TCP Writer/Listener: Set Client ID: Error decoding the message,3
+5359,TCP Writer: Error in sending the message: connection closed by the client!,3
+5360,TCP Writer: Error in sending the message: Timeout error,1
+5361,TCP Writer: Error in sending the message: unknown error,1
+5362,TCP Listener: Error in listening: connection closed by the client,3
+5363,TCP Listener: Unknown error while listening,1
+5364,TCP Writer: Error in encoding the message,1
+5365,TCP Server: error in closing the communication with an external error sender,0
+5366,TCP Writer: trying to reopen a valid connection,0
+5367,TCP Listener: trying to listen from an invalid connection,1
+5368,TCP Writer: Message too long!,2
+5369,TCP Writer: number of bytes written do not correspond to the length of the message!,1
+5370,Kasli Server: wrong message!,2
+5371,Kasli Server: unknown Kasli Name,2
+5400,Error Manager,0
+5401,Error in parsing the error message,3
+5402,Error while init the Error Manager,3
+5403,Error while digesting the error,3
+5404,Error while dismissing the error selected,0
+5405,Error while dismissing all errors ,0
+5450,Config class,0
+5451,Config class: init error,0
+5452,Config class: empty config file path provided,0
+5453,Config class: configuration doesn't exist,1
+5454,Config class: Parameter not defined in this configuration,0
+5455,Config class: No Current Config Set,2
+5500,Run Tools,0
+5501,Couldn't create a new Run Instance,0
+5502,Optimiser SBlock: Cell isn't of the optimser type,0
+5503,Cell not an optimiser cell,0
+5504,Optimiser: error from Analysis Framework when calculating observables,1
+5505,Optimiser: there was a problem running ALPACA_optimiser,2
+5506,Optimiser: error creating the Std log file,2
+5507,Optimiser: error creating the Error log file,2
+5508,Optimiser: error creating the History log gile,2
+5509,Optimiser: couldn't create a directory for logging,2
+5510,Optimiser: Error while checking max NaN retries,0
+5511,Optimiser: Too many retries of calculating observables,0
+5512,Error while calculating a step in Advanced Mode (dividing by 0),0
+5513,Error while calculating parameter values in Advanced Mode (step size equal to 0),0
+5514,Parameter name cannot be an empty string,0
+5515,Parameter value cannot be an empty string,0
+5516,Wrong values in logarithmic mode,0
+5517,Observable Name cannot be empty,0
+5518,Number of exploration RUNs exceeds the number of iterations,0
+5519,Parameter value outside the range,0
+5520,Observable weights don't add up to one,0
+5521,Couldn't create a Sblock,0
+5522,Couldn't get a schedule from a sequence of SBlocks,0
+5523,Error with accessing the Run Block from the reference,0
+5524,Optimiser: parameter mismatch in updating the run values,0
+5550,Kasli Interface,0
+5551,Kasli Configuration not available,3
+5552,Error initialising Kasli Interface,3
+5553,Can't cast into the Kasli Interface,3
+5600,Kasli Wrapper,0
+5601,There was an error parsing the StdOut,0
+5602,There was an error parsing the StdErr,1
+5603,Wrapper failed to write the bat file,1
+5604,Error while starting/stopping the Master shell!,3
+5605,Impossible to send the StdOut/Err logs to the DAQ (already closed?),1
+5606,Error in submitting the script to the Kasli,1
+5607,Error decoding the Kasli Name,3
+5608,Error creating a directory for bats,3
+5609,Error in sending the StdOut/Err to the DAQ,1
+5610,Error in sending the Batman!... To the DAQ,0
+5611,Kasli Error (unhandled)!,0
+5612,Kasli Wrapper: Can't update the uService Name GUI,0
+5613,Kasli Wrapper: Failed submitting StopRun Script!,3
+5614,Kasli Error in Client!,3
+5615,Kasli Error!,0
+5616,Error trying to initialize Kasli Wrapper,0
+5617,Error logging Kasli StdOut,0
+5618,Error logging Kasli StdErr,0
+5650,Scheduler,0
+5651,Error while launching the Add Runs floating panel,0
+5652,Scheduler error while Updating a SBlock,0
+5653,Scheduler couldn't update its GUI,0
+5654,Failed to launch the preview window,0
+5655,Failed to launch a file browser window,0
+5656,Error preparing the preview window,0
+5657,Couldn't add a new Sblocks,0
+5658,Failed to update the continuous flag,0
+5659,Wrong selection argument,0
+5660,Failed to split/combine schedules,0
+5661,Trying to split multicolumn schedule,0
+5662,Scheduler: error while changing the sync. mask,0
+5663,Scheduler: error with rescheduling ,0
+5664,Scheduler: error populating lists of parameter names,0
+5665,Scheduler: error updating Parameter Names in Add RUN Window,0
+5666,Scheduler::Error while updating subpanels in the Add Run,0
+5667,Error enabling/disabling controls on the GUI,0
+5668,Error initialising scheduler,0
+5669,Error while trying to append loaded schedules,0
+5670,Error setting up the Run Window,0
+5700,Monkey,0
+5701,Monkey received unrecognised schedule message,3
+5702,Criticality Level outside working range,3
+5703,Error in decoding Criticality Level from Kasli,3
+5704,Monkey: wrong message passed to JetLag,3
+5705,Monkey: Delay too big (or negative?) - coerced,0
+5706,Monkey: Error in JetLagging a message!,3
+5707,Monkey: Jetlagging jetlag! Loop!,3
+5708,Monkey: error in accessing some front panel items to generate the status,0
+5709,Can't update the picture of the Monkey!,0
+5710,Wrong message format in Script Check Result,0
+5711,Monkey: Error reporting the status,0
+5712,Monkey: Can't update the uService Name GUI,0
+5713,Monkey: Something went wrong with Obtaining observables from optimiser,2
+5714,Monkey: Something went wrong with calculating new parameters from the optimer,2
+5715,Monkey: a problem performing Quality Check,2
+5716,Optimiser: Couldn't read the optimiser wait time,0
+5717,Optimiser finished: best parameters were already reached,0
+5718,Script not found,0
+5719,Script name empty!,0
+5720,Failed to create Analysis Framework object,0
+5721,Error when finishing the current script,0
+5722,Monkey:run didn't pass the quality check,0
+5750,Tamer,0
+5751,Tamer: Error while trying to sort schedules and sync mask!,0
+5752,Unrecognised FPGA name,2
+5753,Schedule has wrong format,3
+5754,Wrong number of schedules for prepared Monkeys,3
+5755,Wrong Monkey ID,2
+5756,Parallel operation: Sync Mask is Missing,3
+5757,Wrong data from the Script Checker,3
+5758,This Monkey already sent Script Check Result,3
+5759,Monkey not in the Sync Mask,3
+5760,Script Checks don't match Sync List,3
+5761,Process with this Monkey ID not found,3
+5762,Process with this FPGA Name not found,3
+5763,Synced Process not found,3
+5764,Process not found,3
+5765,FPGA already sent banana,3
+5766,Bananas don't match Sync List,3
+5767,Error in processing the Banana,3
+5768,Error creating while setting the GUI for new Run,0
+5769,Error while updating Monkey Status in Tamer GUI,0
+5770,Wrong report message from Monkey,0
+5771,Tamer: Couldn't check if any Monkey is running,0
+5772,Tamer: error in accessing some front panel items to generate the status,0
+5773,Tamer: I don't know who died (no ID passed),0
+5774,Tamer: error while trying to rerun skipped scripts,0
+5775,Tamer: error while trying to reschedule skipped scripts,0
+5776,,0
+5777,Tamer: Error writing action history log,0
+5778,Init RUN aborted because timeout,1
+5779,Init RUN aborted because ABORT was True,3
+5780,Init RUN aborted because lists didn't match,1
+5781,Init RUN aborted because uService replied No Go,1
+5782,Init RUN aborted because Guardian replied No Go,1
+5783,Init RUN aborted because uService reply was not readable,1
+5784,Init RUN aborted because Guardian reply was not readable,1
+5785,Error while stopping the Ready to Launch procedure,1
+5786,Tamer: too many RtL tried! Stopping.,0
+5787,Script built for a different FPGA than scheduled,0
+5788,Criticality Level outside working range,0
+5789,Error decoding B4n4n4 from FPGA,3
+5790,Tamer: wrong message passed to JetLag,1
+5791,Tamer: Jetlag delay too big (or negative?) - coerced,0
+5792,Tamer: Error in JetLagging a message!,3
+5793,Tamer: Jetlagging jetlag! Loop!,3
+5794,Can't update the picture of the Tamer,0
+5795,Failed to launch the Debug Window,0
+5796,Error trying to stop uServices in the process,0
+5797,Cannot update the process selector on the GUI,0
+5800,FPGA Messages,0
+5801,FPGA returned Retry,0
+5802,FPGA returned Skip,0
+5803,FPGA returned Stop,0
+5804,FPGA returned ABORT,0
+5820,DAQ Manager,0
+5821,An error occurred while starting up the DAQ,1
+5822,An error occurred while getting the status of the DAQ,1
+5823,An error occurred while stopping the DAQ,0
+5824,Wrong data to send to metadata,2
+5825,Error while sending metadata to the DAQ,1
+5826,Impossible to decode the message to send to the DAQ,2
+5999,JKI-DotNET System Exec - Error of KERNEL32 when sending Ctrl-C to the process,3
