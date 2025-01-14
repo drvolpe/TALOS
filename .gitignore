@@ -2,4 +2,6 @@
 *.aliases
 *.lvlps
 
+# Keep the repo clean
+*.ppl
 
