@@ -260,24 +260,24 @@
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{E542EEE4-06F0-4521-A7CC-5EC7A6DDE5A4}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">TALOS</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Code/builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Post-Build Action.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{28EAA83C-9613-4D63-BE1B-20C861522DFD}</Property>
-				<Property Name="Bld_userLogFile" Type="Path">/C/Users/aegis/Desktop/Talos_build_log.txt</Property>
-				<Property Name="Bld_version.build" Type="Int">383</Property>
+				<Property Name="Bld_userLogFile" Type="Path">/C/LabVIEW/builds/logs/TALOS_build_log.txt</Property>
+				<Property Name="Bld_version.build" Type="Int">384</Property>
 				<Property Name="Bld_version.major" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">TALOS_PPL.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Code/builds/NI_AB_PROJECTNAME/TALOS_PPL.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW/builds/NI_AB_PROJECTNAME/TALOS_PPL.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Code/builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CB34F5E7-5930-42A6-96E4-8B7F3A589450}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D5D4B8F6-CDE0-46A7-B675-6C10EC2D7296}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TALOS/TALOS.lvlib</Property>
