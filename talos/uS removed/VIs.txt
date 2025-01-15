@@ -1,0 +1,2 @@
+FPGA informative error on returns
+(changed input o FPGA Interface:Check Build from Run Instance to generic LV Object)

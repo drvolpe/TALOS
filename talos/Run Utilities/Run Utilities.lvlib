@@ -9,8 +9,6 @@
 	<Property Name="Database Path" Type="Str">C:\Program Files (x86)\National Instruments\LabVIEW 2020\data</Property>
 	<Property Name="Enable Alarms Logging" Type="Bool">true</Property>
 	<Property Name="Enable Data Logging" Type="Bool">true</Property>
-	<Property Name="NI.Lib.ContainingLib" Type="Str">TALOS.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../TALOS.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)]!!!*Q(C=\&gt;8.&lt;2J"'-&lt;R*Z%0O&gt;*"B.T"UQ)8#K#$['W"KY]==FIZE6\*&amp;&gt;!#,&lt;QN5%!ON,$_TXC#=73:3R*&amp;E7=:7*\Z_HFW75O^@**O.&amp;]LNW_7VNY\^&gt;@0TX9[0XV^U43`[(*OP_AUP^&lt;_00\WV@'`H084C`2N`Z7C^`*?`O^S&gt;`6(]-&gt;`"R`5(E45IC9VK&amp;:&lt;&gt;C\S)C`S)C`S)E`S*%`S*%`S*!`S)!`S)!`S)$?ZS5VO=J/&lt;P"`E)B?ZS#%6CR=,&amp;:-7%R3&gt;I;BY+TS&amp;J`!5(L[K]"3?QF.Y#A^&gt;6(A+4_%J0)7(93I]B;@Q&amp;*\#QV2&gt;5PUARV.YG&amp;[**`%EHM34?&amp;B3C3="*)MF%S?4Q&amp;$3G*QEHM34?$B6YEE]C3@R*"[;F8A34_**0)G()8V8MGP;19[(;22Y!E`A#4S"B[E6?!*0Y!E]A9@F&amp;(A#4Y!)&amp;AQGB["A5.!B_"*Y!A]@#DS"*`!%HM"$5\^#U8?G;&gt;J"DM&gt;YD-&gt;YD-&gt;YG%,'9TT'9TT'Q\1S(O-R(O-R(J;3]2C0]2C)7:4F:39T!UUH%RA0LX[XO&amp;_F\",X1RIXL]:.K8'T;&gt;R%'D?(RE88O*A;&amp;UFD]T5W67/T.$:"YY`41'NA."&lt;2'.Q[[M4\E8KA\KE\[J;[I;[I3_KC$@X.(5_HEY\(IQ[(A`&lt;\P8;\H&lt;&lt;&lt;L4;&lt;D6;LF:&lt;,J2;,R@ER]*HD`%"Y?C\&gt;=@ZQ0`W9PE`LBW`4?LKH@PG[&lt;PF@_0`]$TQ&lt;^6'8;\"(DW8-8#1!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>

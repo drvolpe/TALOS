@@ -1,7 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Library LVVersion="20008000">
-	<Property Name="NI.Lib.ContainingLib" Type="Str">TALOS.lvlib</Property>
-	<Property Name="NI.Lib.ContainingLibPath" Type="Str">../../../../TALOS.lvlib</Property>
 	<Property Name="NI.Lib.Icon" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*&lt;!!!*Q(C=\&gt;5R&lt;B."&amp;-&lt;RTYC#&gt;B%N%P)6XAF7=E&amp;"B?1&lt;2+^/A?35FK&amp;QQ16?QQ&amp;]"6`B8=&amp;V/F^B_=`YW5#)Z#92&amp;.HV*.ZP:^\]-DP;30VY)\X7&gt;/WY;]&gt;U_L3,&amp;EWH[+[C&gt;D(6R64&gt;(^S@`CDS_0DT&lt;)`7LSZ^_IPB=P`=[&gt;TB6`&lt;X`80JJR`@61`(8THU=LQ=``:98^WET\ZH:WIP)FL3AO9U5ZNK3P)E4`)E4`)E$`)A$`)A$`)A&gt;X)H&gt;X)H&gt;X)H.X)D.X)D.X)D\S?ZS%5O=ED*Z-F%3&gt;'E1.):CJ)@C3@R**\%Q[534_**0)EH]&gt;"&amp;C3@R**\%EXA9JM34?"*0YEE]F/K3\#=ZHM2$?17?Q".Y!E`A95I&amp;HA!14"95$IL!5(!T_"*Y!E`AY;M#4_!*0)%H]("&lt;A3@Q"*\!%XA9UF=FOK;&gt;Z(AI)]@D?"S0YX%]F*&lt;D=4S/R`%Y(K;4YX%]$M+:U#E/1=YAJY.TY8A=$\`E?"S0YX%]DI&gt;&lt;`1FZ8ZGG;3=Z(M.D?!S0Y4%]F*$B-4S'R`!9(ML+]"A?QW.Y$!^4S@!9(M.D1)R*G6Z'-7/AU=E)$!_@PFOM0[8I%OOH6*N8N3F6GUWVC63&lt;1`8161^4^:"5C[^;6.6CK2:"^=?JU#K-;B,6Y.:22XY?;(P;DL;FL7B,WI)WJQVN[".X0"[0/BQ/WO`XWOVWWG[X7KV77C[87CQ7GM`H'I&lt;B]BLYQ(FZ):T?3ZN08]&lt;.^W`DV\=XY_&lt;(OX(T_8Z=$\?T^@"R&gt;PH^`H&lt;W40^,`Y.XIV\J^\KMU5^.FN\9!!!!!!</Property>
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
