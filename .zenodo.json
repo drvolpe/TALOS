@@ -1,31 +1,35 @@
 {
     "creators": [
         {
-            "orcid": "0000-0002-1825-0097",
-            "affiliation": "Feline reasearch institute",
-            "name": "Field, Gar"
+            "orcid": "0000-0002-5048-8708",
+            "affiliation": "Physics Department, CERN",
+            "name": "Volponi, Marco"
         },
         {
-            "orcid": "0000-0002-1825-0097",
-            "affiliation": "Feline reasearch institute",
-            "name": "Cat, Felix"
+            "orcid": "0000-0003-2729-5737",
+            "affiliation": "Faculty of Physics, Warsaw University of Technology",
+            "name": "Zielinski, Jakub"
+        },
+        {
+            "affiliation":"CERN",
+            "name":"AEgIS Collaboration"
         }
     ],
 
-    "license": "Example-2.0",
+    "license": "GNU LGPL 3.0",
 
-    "title": "Red-Dot: ML-powered laser vector detection",
+    "title": "TALOS (Total Automation of LabVIEW Operations for Science): a framework for autonomous control systems for complex experiments",
 
     "related_identifiers": [
         {
             "scheme": "doi",
-            "identifier": "10.1234/software.paper.5678",
+            "identifier": "10.1063/5.0196806",
             "relation": "isDocumentedBy",
             "resource_type": "publication-article"
         }
     ],
 
-    "keywords": ["Cats", "Laser", "Behavior"],
+    "keywords": ["Control System", "Unsupervised", "Autonomous","LabVIEW"],
 
     "communities": [
         {"identifier": "software-cats"}

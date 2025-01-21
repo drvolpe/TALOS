@@ -61,7 +61,7 @@ To run TALOS, the NI Actor Framework needs to be compiled as a _Packed Project L
 ![AF structure](/Actor%20Framework%20PPL/Actor%20Framework%20Library%20structure.png)
 
 4) Press `Save all` and wait for completion.
-5) Right-click the build, select `Properties`, check that the destination path corresponds to _..\TALOS\builds\Actor Framework_, then press `Build`.
+5) Right-click the build, select `Properties`, check that the destination path corresponds to _..\TALOS\builds\Actor Framework PPL_, then press `Build`.
 6) When the build is finished, close the project, close completely LabVIEW, and restore the files in the installation folder from the backup done on the desktop.
 
 
