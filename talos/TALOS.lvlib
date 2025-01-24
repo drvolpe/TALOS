@@ -124,6 +124,9 @@
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
 		</Item>
+		<Item Name="TCP Utilities" Type="Folder">
+			<Item Name="TCP_NoDelay_Windows.vi" Type="VI" URL="../Support VIs/TCP_NoDelay_Windows.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Ancestor.lvlib" Type="Library" URL="../Ancestor/Ancestor.lvlib"/>
 	<Item Name="Classes.lvlib" Type="Library" URL="../Classes/Classes.lvlib"/>

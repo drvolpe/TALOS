@@ -138,15 +138,6 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082143234</Property>
 		</Item>
-		<Item Name="TCP_NoDelay_Windows.vi" Type="VI" URL="../TCP_NoDelay_Windows.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$&lt;!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!=!!&amp;#'.P&lt;GZ*2#!S!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"B!)2*51V"@4E^%25R"73!I&gt;(*V:3E!!!Z!=!!&amp;"G.P&lt;GZ*2!!!0!$Q!!A!!Q!%!!1!"1!'!!1!"Q!)!Q!!9!!!$11!!!!!!!!!!!!!$1=!!!I!!!!!!!!!#A!!!!A!!!!!!1!*!!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
-		</Item>
 	</Item>
 	<Item Name="Close.vi" Type="VI" URL="../Close.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&gt;!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!&amp;"!=!!?!!!R#V2"4%^4,GRW&lt;'FC%&amp;2$5#"8=GFU:8)O&lt;(:M;7)36%.1)&amp;&gt;S;82F=CZM&gt;G.M98.T!"6V5W6S&gt;GFD:3"5:7VQ&lt;'&amp;U:3"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"11(!!(A!!-1N515R05SZM&gt;GRJ9B"51V!A6X*J&gt;'6S,GRW&lt;'FC%F2$5#"8=GFU:8)O&lt;(:D&lt;'&amp;T=Q!5&gt;6.F=H:J9W5A6'6N='RB&gt;'5A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"!!(!Q!!?!!!#1!!!!!!!!!!!!!!C1!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!#3!!!!!!%!#!!!!!!</Property>
