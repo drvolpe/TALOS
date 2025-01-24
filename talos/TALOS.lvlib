@@ -125,6 +125,8 @@
 			</Item>
 		</Item>
 		<Item Name="TCP Utilities" Type="Folder">
+			<Item Name="Send and read from TCP Server.vi" Type="VI" URL="../Support VIs/Send and read from TCP Server.vi"/>
+			<Item Name="Send message to TCP Server.vi" Type="VI" URL="../Support VIs/Send message to TCP Server.vi"/>
 			<Item Name="TCP_NoDelay_Windows.vi" Type="VI" URL="../Support VIs/TCP_NoDelay_Windows.vi"/>
 		</Item>
 	</Item>

@@ -152,7 +152,7 @@
 5352,TCP Server: first message wrong,3
 5353,TCP Server: Unknown error while opening the connection,3
 5354,TCP Server: Init error,3
-5355,TCP Server: Error in rerouting message I exist to Guardian,3
+,,
 5355,TCP Writer/Listener: Error while closing the connection,0
 5356,TCP Listener: Error decoding the message received,1
 5357,TCP Writer: Set IP: Error decoding the IP string,3
@@ -170,6 +170,9 @@
 5369,TCP Writer: number of bytes written do not correspond to the length of the message!,1
 5370,Kasli Server: wrong message!,2
 5371,Kasli Server: unknown Kasli Name,2
+5372,TCP Server: Error in rerouting message I exist to Guardian,3
+5373,Error in sending a message to the TCP Server,3
+5374,Error in sending (and reading) to the TCP Server,3
 5400,Error Manager,0
 5401,Error in parsing the error message,3
 5402,Error while init the Error Manager,3
