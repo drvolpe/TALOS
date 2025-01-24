@@ -123,7 +123,6 @@
 			<Item Name="Common.lvlib" Type="Library" URL="../../builds/TALOS Shared Variables/TALOS_SV.lvlibp/Common.lvlib"/>
 			<Item Name="Error Queue.lvlib" Type="Library" URL="../../builds/TALOS Shared Variables/TALOS_SV.lvlibp/Error Queue.lvlib"/>
 		</Item>
-		<Item Name="TCP Server Msg Actions.ctl" Type="VI" URL="../Internal uServices/System uServices/TCP Server/TCP Server/TCP Server Msg Actions.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
