@@ -48,6 +48,8 @@
 5047,Error in the Update from Git Confirmation Window,0
 5048,Error loading the FPGA Interface,0
 5049,Error in generating the FPGA List,0
+5050,Error in initialising the Bearer,3
+5051,Error in asking if the GD is the Bearer,3
 5100,Father of All uServices,0
 5101,Impossible to subscribe to the SV Value Update Notification.,0
 5102,Wrong message!,2
@@ -152,7 +154,6 @@
 5352,TCP Server: first message wrong,3
 5353,TCP Server: Unknown error while opening the connection,3
 5354,TCP Server: Init error,3
-,,
 5355,TCP Writer/Listener: Error while closing the connection,0
 5356,TCP Listener: Error decoding the message received,1
 5357,TCP Writer: Set IP: Error decoding the IP string,3
@@ -173,6 +174,7 @@
 5372,TCP Server: Error in rerouting message I exist to Guardian,3
 5373,Error in sending a message to the TCP Server,3
 5374,Error in sending (and reading) to the TCP Server,3
+5375,TCP Server: Error while replying Who is the Bearer,3
 5400,Error Manager,0
 5401,Error in parsing the error message,3
 5402,Error while init the Error Manager,3
