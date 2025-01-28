@@ -16,7 +16,7 @@
         }
     ],
 
-    "license": "GNU LGPL 3.0",
+    "license": "LGPL-3.0-or-later",
 
     "title": "TALOS (Total Automation of LabVIEW Operations for Science): a framework for autonomous control systems for complex experiments",
 
@@ -32,8 +32,8 @@
     "keywords": ["Control System", "Unsupervised", "Autonomous","LabVIEW"],
 
     "communities": [
-        {"identifier": "software-cats"}
+        {"identifier": "cern"}
     ],
 
-    "grants": [{"id":"777541"}]
+    "grants": []
 }
