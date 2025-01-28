@@ -51,7 +51,6 @@
 		<Item Name="ABORT Utilities" Type="Folder">
 			<Item Name="(Un)Deploy ABORT.vi" Type="VI" URL="../Support VIs/(Un)Deploy ABORT.vi"/>
 			<Item Name="Check ABORT.vi" Type="VI" URL="../Support VIs/Check ABORT.vi"/>
-			<Item Name="Raise ABORT.vi" Type="VI" URL="../Support VIs/Raise ABORT.vi"/>
 		</Item>
 		<Item Name="Config Params" Type="Folder">
 			<Item Name="Circus Config Param - Core.vi" Type="VI" URL="../Support VIs/Circus Config Param - Core.vi"/>
