@@ -196,4 +196,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">269230096</Property>
 	</Item>
+	<Item Name="Get all Alive GDs IDs.vi" Type="VI" URL="../Get all Alive GDs IDs.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;`!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!-0````]'5X2S;7ZH!!!;1%!!!@````]!"1V"&lt;'FW:3"(2(-A352T!%R!=!!?!!!R#V2"4%^4,GRW&lt;'FC$5.M98.T:8-O&lt;(:M;7)62X6B=G2J97YA4'FT&gt;#ZM&gt;G.M98.T!"&amp;(&gt;7&amp;S:'FB&lt;C"-;8.U)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%R!=!!?!!!R#V2"4%^4,GRW&lt;'FC$5.M98.T:8-O&lt;(:M;7)62X6B=G2J97YA4'FT&gt;#ZM&gt;G.M98.T!""(&gt;7&amp;S:'FB&lt;C"-;8.U)'FO!!"5!0!!$!!$!!1!"A!(!!1!"!!%!!1!#!!%!!1!#1)!!(A!!!U)!!!!!!!!#1!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!I!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">269230080</Property>
+	</Item>
 </LVClass>

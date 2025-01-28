@@ -9,7 +9,6 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Messages for this Actor" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
-		<Item Name="Abort Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Abort Msg/Abort Msg.lvclass"/>
 		<Item Name="Abort Status Check Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Abort Status Check Msg/Abort Status Check Msg.lvclass"/>
 		<Item Name="All Watchdog Manager Msg.lvclass" Type="LVClass" URL="../Guardian Messages/All Watchdog Manager Msg/All Watchdog Manager Msg.lvclass"/>
 		<Item Name="Broadcast to Guardians Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Broadcast to Guardians Msg/Broadcast to Guardians Msg.lvclass"/>
@@ -22,6 +21,7 @@
 		<Item Name="Launch uService Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Launch uService Msg/Launch uService Msg.lvclass"/>
 		<Item Name="Message to Other Guardian Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Message to Other Guardian Msg/Message to Other Guardian Msg.lvclass"/>
 		<Item Name="Message to uService Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Message to uService Msg/Message to uService Msg.lvclass"/>
+		<Item Name="Propagate Abort Locally Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Propagate Abort Locally Msg/Propagate Abort Locally Msg.lvclass"/>
 		<Item Name="Raise Abort Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Raise Abort Msg/Raise Abort Msg.lvclass"/>
 		<Item Name="Ready to launch Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Ready to launch Msg/Ready to launch Msg.lvclass"/>
 		<Item Name="Requests from uServices Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Requests from uServices Msg/Requests from uServices Msg.lvclass"/>
