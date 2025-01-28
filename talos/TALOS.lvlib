@@ -44,16 +44,6 @@
 			<Item Name="TCP Server.lvlib" Type="Library" URL="../Internal uServices/System uServices/TCP Server/TCP Server.lvlib"/>
 			<Item Name="TCP Writer.lvlib" Type="Library" URL="../Internal uServices/System uServices/TCP Writer/TCP Writer.lvlib"/>
 		</Item>
-		<Item Name="CIRCUS uServices" Type="Folder">
-			<Item Name="DAQ Manager.lvlib" Type="Library" URL="../Internal uServices/CIRCUS uServices/DAQ Manager/DAQ Manager.lvlib"/>
-			<Item Name="DAQ Sender.lvlib" Type="Library" URL="../Internal uServices/CIRCUS uServices/DAQ Sender/DAQ Sender.lvlib"/>
-			<Item Name="Kasli Listener and Writer.lvlib" Type="Library" URL="../Internal uServices/CIRCUS uServices/Kasli Listener and Writer.lvlib"/>
-			<Item Name="Kasli Server.lvlib" Type="Library" URL="../Internal uServices/CIRCUS uServices/Kasli Server/Kasli Server.lvlib"/>
-			<Item Name="Kasli Wrapper 2.0.lvlib" Type="Library" URL="../Internal uServices/CIRCUS uServices/Kasli Wrapper 2.0/Kasli Wrapper 2.0.lvlib"/>
-			<Item Name="Monkey.lvlib" Type="Library" URL="../Internal uServices/CIRCUS uServices/Monkey/Monkey.lvlib"/>
-			<Item Name="Scheduler.lvlib" Type="Library" URL="../Internal uServices/CIRCUS uServices/Scheduler/Scheduler.lvlib"/>
-			<Item Name="Tamer.lvlib" Type="Library" URL="../Internal uServices/CIRCUS uServices/Tamer/Tamer.lvlib"/>
-		</Item>
 		<Item Name="Template Internal uService.lvlib" Type="Library" URL="../Internal uServices/Template Internal uService/Template Internal uService.lvlib"/>
 	</Item>
 	<Item Name="Support VI" Type="Folder">
@@ -64,7 +54,7 @@
 			<Item Name="Raise ABORT.vi" Type="VI" URL="../Support VIs/Raise ABORT.vi"/>
 		</Item>
 		<Item Name="Config Params" Type="Folder">
-			<Item Name="CIrcus Config Param - Core.vi" Type="VI" URL="../Support VIs/CIrcus Config Param - Core.vi"/>
+			<Item Name="Circus Config Param - Core.vi" Type="VI" URL="../Support VIs/Circus Config Param - Core.vi"/>
 			<Item Name="Circus Config Param.vi" Type="VI" URL="../Support VIs/Circus Config Param.vi"/>
 			<Item Name="Extract List from both INI.vi" Type="VI" URL="../Support VIs/Extract List from both INI.vi"/>
 			<Item Name="Extract list from Project INI file entry.vi" Type="VI" URL="../Guardian/Guardian/Extract list from Project INI file entry.vi"/>
@@ -95,7 +85,6 @@
 			<Item Name="Circus PCs List.vi" Type="VI" URL="../Support VIs/Circus PCs List.vi"/>
 			<Item Name="Cirucs PCs IPs.vi" Type="VI" URL="../Support VIs/Cirucs PCs IPs.vi"/>
 			<Item Name="Date n Time.vi" Type="VI" URL="../Support VIs/Date n Time.vi"/>
-			<Item Name="FPGA informative error on return.vi" Type="VI" URL="../Support VIs/FPGA informative error on return.vi"/>
 			<Item Name="Get Class Name.vi" Type="VI" URL="../Support VIs/Get Class Name.vi"/>
 			<Item Name="Get PC name.vi" Type="VI" URL="../Support VIs/Get PC name.vi"/>
 			<Item Name="Get Run Number.vi" Type="VI" URL="../Support VIs/Get Run Number.vi"/>
@@ -138,10 +127,9 @@
 	</Item>
 	<Item Name="Ancestor.lvlib" Type="Library" URL="../Ancestor/Ancestor.lvlib"/>
 	<Item Name="Classes.lvlib" Type="Library" URL="../Classes/Classes.lvlib"/>
-	<Item Name="Father Of All Detectors.lvlib" Type="Library" URL="../Classes/Father of all Detectors/Father Of All Detectors.lvlib"/>
 	<Item Name="Father of all uServices.lvlib" Type="Library" URL="../Father of all uServices/Father of all uServices.lvlib"/>
+	<Item Name="Father Of All Detectors.lvlib" Type="Library" URL="../Classes/Father of all Detectors/Father Of All Detectors.lvlib"/>
 	<Item Name="Guardian.lvlib" Type="Library" URL="../Guardian/Guardian.lvlib"/>
 	<Item Name="Interfaces.lvlib" Type="Library" URL="../Interfaces/Interfaces.lvlib"/>
-	<Item Name="Run Utilities.lvlib" Type="Library" URL="../Run Utilities/Run Utilities.lvlib"/>
 	<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
 </Library>

@@ -6,7 +6,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Analysis Framework.lvclass" Type="LVClass" URL="../Analysis Framework/Analysis Framework.lvclass"/>
 	<Item Name="DAQ Communication.lvclass" Type="LVClass" URL="../DAQ Communication/DAQ Communication.lvclass"/>
 	<Item Name="DAQ Control.lvclass" Type="LVClass" URL="../DAQ Control/DAQ Control.lvclass"/>
 	<Item Name="FPGA Interface.lvclass" Type="LVClass" URL="../FPGA Interface/FPGA Interface.lvclass"/>
