@@ -23,6 +23,7 @@
 		<Item Name="Message to uService Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Message to uService Msg/Message to uService Msg.lvclass"/>
 		<Item Name="Propagate Abort Locally Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Propagate Abort Locally Msg/Propagate Abort Locally Msg.lvclass"/>
 		<Item Name="Raise Abort Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Raise Abort Msg/Raise Abort Msg.lvclass"/>
+		<Item Name="Raise or Lower Abort Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Raise or Lower Abort Msg/Raise or Lower Abort Msg.lvclass"/>
 		<Item Name="Ready to launch Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Ready to launch Msg/Ready to launch Msg.lvclass"/>
 		<Item Name="Requests from uServices Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Requests from uServices Msg/Requests from uServices Msg.lvclass"/>
 		<Item Name="TCP-SV Message Interpreter Msg.lvclass" Type="LVClass" URL="../Guardian Messages/TCP-SV Message Interpreter Msg/TCP-SV Message Interpreter Msg.lvclass"/>
