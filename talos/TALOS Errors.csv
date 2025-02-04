@@ -50,6 +50,7 @@
 5049,Error in generating the FPGA List,0
 5050,Error in initialising the Bearer,3
 5051,Error in asking if the GD is the Bearer,3
+5052,Error in raising or porpagating Abort,3
 5100,Father of All uServices,0
 5101,Impossible to subscribe to the SV Value Update Notification.,0
 5102,Wrong message!,2
