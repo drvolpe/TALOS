@@ -258,9 +258,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Abort Msg.lvclass" Type="LVClass" URL="../Guardian/Guardian Messages/Abort Msg/Abort Msg.lvclass"/>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="TALOS" Type="Packed Library">
