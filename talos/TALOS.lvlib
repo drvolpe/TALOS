@@ -49,7 +49,6 @@
 	<Item Name="Support VI" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="ABORT Utilities" Type="Folder">
-			<Item Name="(Un)Deploy ABORT.vi" Type="VI" URL="../Support VIs/(Un)Deploy ABORT.vi"/>
 			<Item Name="Check ABORT.vi" Type="VI" URL="../Support VIs/Check ABORT.vi"/>
 		</Item>
 		<Item Name="Config Params" Type="Folder">
@@ -81,8 +80,8 @@
 			<Item Name="Circus Critical PCs List.vi" Type="VI" URL="../Support VIs/Circus Critical PCs List.vi"/>
 			<Item Name="Circus FPGA List.vi" Type="VI" URL="../Support VIs/Circus FPGA List.vi"/>
 			<Item Name="Circus Kaslis IPs.vi" Type="VI" URL="../Support VIs/Circus Kaslis IPs.vi"/>
+			<Item Name="Circus PCs IPs.vi" Type="VI" URL="../Support VIs/Circus PCs IPs.vi"/>
 			<Item Name="Circus PCs List.vi" Type="VI" URL="../Support VIs/Circus PCs List.vi"/>
-			<Item Name="Cirucs PCs IPs.vi" Type="VI" URL="../Support VIs/Cirucs PCs IPs.vi"/>
 			<Item Name="Date n Time.vi" Type="VI" URL="../Support VIs/Date n Time.vi"/>
 			<Item Name="Get Class Name.vi" Type="VI" URL="../Support VIs/Get Class Name.vi"/>
 			<Item Name="Get PC name.vi" Type="VI" URL="../Support VIs/Get PC name.vi"/>
@@ -106,7 +105,6 @@
 		<Item Name="Paths" Type="Folder">
 			<Item Name="Circus Root Path.vi" Type="VI" URL="../Support VIs/Circus Root Path.vi"/>
 			<Item Name="TALOS Root path.vi" Type="VI" URL="../Support VIs/TALOS Root path.vi"/>
-			<Item Name="TALOS SVs path.vi" Type="VI" URL="../Support VIs/TALOS SVs path.vi"/>
 		</Item>
 		<Item Name="Skins" Type="Folder">
 			<Item Name="Get Circus Logo.vi" Type="VI" URL="../Support VIs/Get Circus Logo.vi">
