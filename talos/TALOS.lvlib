@@ -48,9 +48,6 @@
 	</Item>
 	<Item Name="Support VI" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
-		<Item Name="ABORT Utilities" Type="Folder">
-			<Item Name="Check ABORT.vi" Type="VI" URL="../Support VIs/Check ABORT.vi"/>
-		</Item>
 		<Item Name="Config Params" Type="Folder">
 			<Item Name="Circus Config Param - Core.vi" Type="VI" URL="../Support VIs/Circus Config Param - Core.vi"/>
 			<Item Name="Circus Config Param.vi" Type="VI" URL="../Support VIs/Circus Config Param.vi"/>
