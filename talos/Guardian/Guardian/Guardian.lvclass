@@ -283,7 +283,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1351098896</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1353196048</Property>
 		</Item>
 		<Item Name="Destroy Events.vi" Type="VI" URL="../Destroy Events.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;$!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%2!=!!?!!!N#V2"4%^4,GRW&lt;'FC$E&gt;V98*E;7&amp;O,GRW&lt;'FC%%&gt;V98*E;7&amp;O,GRW9WRB=X-!$%&gt;V98*E;7&amp;O)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"#1(!!(A!!,1N515R05SZM&gt;GRJ9AZ(&gt;7&amp;S:'FB&lt;CZM&gt;GRJ9B"(&gt;7&amp;S:'FB&lt;CZM&gt;G.M98.T!!N(&gt;7&amp;S:'FB&lt;C"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!E!!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!EA!!!!!"!!A!!!!!</Property>
@@ -611,7 +611,7 @@
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1116209680</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1118306832</Property>
 		</Item>
 		<Item Name="Raise or Lower Abort.vi" Type="VI" URL="../Raise or Lower Abort.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;U!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%2!=!!?!!!N#V2"4%^4,GRW&lt;'FC$E&gt;V98*E;7&amp;O,GRW&lt;'FC%%&gt;V98*E;7&amp;O,GRW9WRB=X-!$%&gt;V98*E;7&amp;O)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!11$$`````"F.F&lt;G2F=A!!&amp;%!B$UZF&gt;S""9G^S&gt;#"797RV:1"#1(!!(A!!,1N515R05SZM&gt;GRJ9AZ(&gt;7&amp;S:'FB&lt;CZM&gt;GRJ9B"(&gt;7&amp;S:'FB&lt;CZM&gt;G.M98.T!!N(&gt;7&amp;S:'FB&lt;C"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!(!!A!#1-!!(A!!!E!!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!B!!!!!1!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!+!!!!!!</Property>
@@ -741,5 +741,14 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 		</Item>
+	</Item>
+	<Item Name="Bid farewell.vi" Type="VI" URL="../Bid farewell.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;1!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%2!=!!?!!!N#V2"4%^4,GRW&lt;'FC$E&gt;V98*E;7&amp;O,GRW&lt;'FC%%&gt;V98*E;7&amp;O,GRW9WRB=X-!$%&gt;V98*E;7&amp;O)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"#1(!!(A!!,1N515R05SZM&gt;GRJ9AZ(&gt;7&amp;S:'FB&lt;CZM&gt;GRJ9B"(&gt;7&amp;S:'FB&lt;CZM&gt;G.M98.T!!N(&gt;7&amp;S:'FB&lt;C"J&lt;A"B!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!%!!!$1!!!!Q!!!!!!!!!!!!!!1!)!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 	</Item>
 </LVClass>

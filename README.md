@@ -13,8 +13,11 @@ For more information about the mechanics of TALOS, see the related article[^1].
 
 TALOS and the CIRCUS have been selected as a NI Case Study for Academic & Research: see [NI LabVIEW Empowers Scientific Research at CERN's Antimatter Lab](https://www.ni.com/en/solutions/academic-research/case-studies/labview-automation-empowers-cerns-antimatter-research.html).
 
-TALOS only supports Windows system (tested on Windows 10 and 11), and LabVIEW 2020 sp1 32 bits and newer.
-The support of LabVIEW 64bit necessitates a major framework update, and it is foreseen to be implemented in the near future.
+TALOS only supports Windows system (tested on Windows 10 and 11), and it is tested with LabVIEW 2020 sp1 32bit.
+
+Newer version of LabVIEW should also be able to run the program without problem. Older version are not guaranteed to execute it.
+
+The support of LabVIEW 64bit is now available, and it has been tested with LabVIEW 2024 Q3 64bit.
 
 
 
@@ -27,7 +30,7 @@ Nevertheless, it can be executed for development and debugging purposes, by perf
 
 ### Install necessary packages
 
-To execute and compile TALOS is needed a 32bit version of LabVIEW newer or equal to 2020 sp1.
+To execute and compile TALOS is needed a version of LabVIEW newer or equal to 2020 sp1.
 
 Moreover, the _OpenG Toolkit_ packages suite needs also to be present in the system (it is easily installable from VIPM).
 
