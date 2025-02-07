@@ -177,6 +177,7 @@
 5373,Error in sending a message to the TCP Server,3
 5374,Error in sending (and reading) to the TCP Server,3
 5375,TCP Server: Error while replying Who is the Bearer,3
+5376,TCP Server: Error in rerouting Farewell message to Guardian,3
 5400,Error Manager,0
 5401,Error in parsing the error message,3
 5402,Error while init the Error Manager,3
