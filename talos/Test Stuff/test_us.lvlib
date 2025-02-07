@@ -4,16 +4,5 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Shared Variables" Type="Folder">
-		<Item Name="SV_7357" Type="Variable">
-			<Property Name="featurePacks" Type="Str">Network</Property>
-			<Property Name="Network:BuffSize" Type="Str">50</Property>
-			<Property Name="Network:UseBinding" Type="Str">False</Property>
-			<Property Name="Network:UseBuffering" Type="Str">True</Property>
-			<Property Name="numTypedefs" Type="UInt">0</Property>
-			<Property Name="type" Type="Str">Network</Property>
-			<Property Name="typeDesc" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!J*1!!!#!!A!!!!!!"!!V!#A!'2'^V9GRF!!!"!!!!!!!!!!!!!!!!!!!!!!!!</Property>
-		</Item>
-	</Item>
 	<Item Name="test_us.lvclass" Type="LVClass" URL="../test_us/test_us.lvclass"/>
 </Library>

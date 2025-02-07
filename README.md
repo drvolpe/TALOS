@@ -27,7 +27,7 @@ Nevertheless, it can be executed for development and debugging purposes, by perf
 
 ### Install necessary packages
 
-To execute and compile TALOS is needed a 32bit version of LabVIEW newer or equal to 2020 sp1, with the _Datalogging and Supervisor Control (DSC) Module_ installed.
+To execute and compile TALOS is needed a 32bit version of LabVIEW newer or equal to 2020 sp1.
 
 Moreover, the _OpenG Toolkit_ packages suite needs also to be present in the system (it is easily installable from VIPM).
 
@@ -65,17 +65,10 @@ To run TALOS, the NI Actor Framework needs to be compiled as a _Packed Project L
 6) When the build is finished, close the project, close completely LabVIEW, and restore the files in the installation folder from the backup done on the desktop.
 
 
-### Other compilations
-
-Similarly to the AF compilation, other two PPLs need to be produced, but the procedure is easier.
-To build the _JKI dotNET System Exec_, open the relative project in the relative folder, check in `Build > Properties` that the path points to _..\TALOS\builds\JKI dotNET System Exec_, and press `Build`.
-The same procedure has to be repeated for the _TALOS Shared Variables_.
-
-
 
 ## Open TALOS to run it in Debug Mode
 
-After the PPLs have been produced, the TALOS project can be opened, and a local debug session can be launched simply executing `Launcher.vi`.
+After the PPL has been produced, the TALOS project can be opened, and a local debug session can be launched simply executing `Launcher.vi`.
 By default, network connections are turned off, and only the _Error Manager_ &mu;Service is launched. To launch other &mu;Services, use the _local subpanel_ of the local Guardian (see the article for more information).
 
 
@@ -106,9 +99,6 @@ Copyright (C) 2024
 
     You should have received a copy of the GNU Lesser General Public License
     along with this program. If not, see <https://www.gnu.org/licenses/>.
-
-
-The _JKI dotNET System Exec_ is created by JKI and licenced under the Berkeley Software Distribution License (BSD) (see [here](https://www.vipm.io/package/jki_lib_dotnet_system_exec/) and [here](https://github.com/jvr-ruiz/JKI-.NET-System-Exec)).
 
 
 

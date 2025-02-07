@@ -48,11 +48,6 @@
 	</Item>
 	<Item Name="Support VI" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
-		<Item Name="ABORT Utilities" Type="Folder">
-			<Item Name="(Un)Deploy ABORT.vi" Type="VI" URL="../Support VIs/(Un)Deploy ABORT.vi"/>
-			<Item Name="Check ABORT.vi" Type="VI" URL="../Support VIs/Check ABORT.vi"/>
-			<Item Name="Raise ABORT.vi" Type="VI" URL="../Support VIs/Raise ABORT.vi"/>
-		</Item>
 		<Item Name="Config Params" Type="Folder">
 			<Item Name="Circus Config Param - Core.vi" Type="VI" URL="../Support VIs/Circus Config Param - Core.vi"/>
 			<Item Name="Circus Config Param.vi" Type="VI" URL="../Support VIs/Circus Config Param.vi"/>
@@ -82,8 +77,8 @@
 			<Item Name="Circus Critical PCs List.vi" Type="VI" URL="../Support VIs/Circus Critical PCs List.vi"/>
 			<Item Name="Circus FPGA List.vi" Type="VI" URL="../Support VIs/Circus FPGA List.vi"/>
 			<Item Name="Circus Kaslis IPs.vi" Type="VI" URL="../Support VIs/Circus Kaslis IPs.vi"/>
+			<Item Name="Circus PCs IPs.vi" Type="VI" URL="../Support VIs/Circus PCs IPs.vi"/>
 			<Item Name="Circus PCs List.vi" Type="VI" URL="../Support VIs/Circus PCs List.vi"/>
-			<Item Name="Cirucs PCs IPs.vi" Type="VI" URL="../Support VIs/Cirucs PCs IPs.vi"/>
 			<Item Name="Date n Time.vi" Type="VI" URL="../Support VIs/Date n Time.vi"/>
 			<Item Name="Get Class Name.vi" Type="VI" URL="../Support VIs/Get Class Name.vi"/>
 			<Item Name="Get PC name.vi" Type="VI" URL="../Support VIs/Get PC name.vi"/>
@@ -107,7 +102,6 @@
 		<Item Name="Paths" Type="Folder">
 			<Item Name="Circus Root Path.vi" Type="VI" URL="../Support VIs/Circus Root Path.vi"/>
 			<Item Name="TALOS Root path.vi" Type="VI" URL="../Support VIs/TALOS Root path.vi"/>
-			<Item Name="TALOS SVs path.vi" Type="VI" URL="../Support VIs/TALOS SVs path.vi"/>
 		</Item>
 		<Item Name="Skins" Type="Folder">
 			<Item Name="Get Circus Logo.vi" Type="VI" URL="../Support VIs/Get Circus Logo.vi">
@@ -123,6 +117,11 @@
 			<Item Name="Get Tamer Picture.vi" Type="VI" URL="../Support VIs/Get Tamer Picture.vi">
 				<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 			</Item>
+		</Item>
+		<Item Name="TCP Utilities" Type="Folder">
+			<Item Name="Send and read from TCP Server.vi" Type="VI" URL="../Support VIs/Send and read from TCP Server.vi"/>
+			<Item Name="Send message to TCP Server.vi" Type="VI" URL="../Support VIs/Send message to TCP Server.vi"/>
+			<Item Name="TCP_NoDelay_Windows.vi" Type="VI" URL="../Support VIs/TCP_NoDelay_Windows.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Ancestor.lvlib" Type="Library" URL="../Ancestor/Ancestor.lvlib"/>

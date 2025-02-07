@@ -19,7 +19,7 @@
 5018,Error while killing the uService!,0
 5019,Couldn't read the Go-NoGo GUID,1
 5020,Error while purging uService from local list,0
-5021,Error in clearing the local SV in Init,3
+5021,Error in processing the Test String,0
 5022,Error in Init ABORT,4
 5023,Error in Init the Guardian List,3
 5024,Error in creating the Init window,3
@@ -48,11 +48,14 @@
 5047,Error in the Update from Git Confirmation Window,0
 5048,Error loading the FPGA Interface,0
 5049,Error in generating the FPGA List,0
+5050,Error in initialising the Bearer,3
+5051,Error in asking if the GD is the Bearer,3
+5052,Error in raising or porpagating Abort,3
 5100,Father of All uServices,0
 5101,Impossible to subscribe to the SV Value Update Notification.,0
 5102,Wrong message!,2
 5103,Error while parsing the front panel items: abort.,3
-5104,FOAM: Error while re-registering to SV value change notification updates,2
+5104,FOAM: error in processing the test string,0
 5105,FOAM: Error while creating the Personal Log,0
 5106,FOAM: Error while writing in the Personal Log,0
 5107,Error getting SV  to subscribe,3
@@ -169,6 +172,10 @@
 5369,TCP Writer: number of bytes written do not correspond to the length of the message!,1
 5370,Kasli Server: wrong message!,2
 5371,Kasli Server: unknown Kasli Name,2
+5372,TCP Server: Error in rerouting message I exist to Guardian,3
+5373,Error in sending a message to the TCP Server,3
+5374,Error in sending (and reading) to the TCP Server,3
+5375,TCP Server: Error while replying Who is the Bearer,3
 5400,Error Manager,0
 5401,Error in parsing the error message,3
 5402,Error while init the Error Manager,3
