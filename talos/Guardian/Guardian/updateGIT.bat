@@ -19,9 +19,9 @@ Taskkill /F /IM "%LabVIEW%"
 :wait_till_killed
 	timeout 1
 	tasklist | findstr /I "%LabVIEW%"
-	if ERRORLEVEL 0 (
-		if %update_git%==1 (
-			if [%git_branch_name%] == [] (
+	IF ERRORLEVEL 0 (
+		IF %update_git%==1 (
+			IF %git_branch_name%=="" (
 				GOTO :switch_git_branch_block
 			) ELSE (
 				GOTO :update_git_block
