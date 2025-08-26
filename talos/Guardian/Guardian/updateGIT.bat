@@ -3,7 +3,7 @@
 SET LabVIEW=LabVIEW.exe
 :: The first parameter of the script is the flag whether to update the git repo
 SET update_git=%1
-SET git_branch_name=%2
+SET git_branch_name="%2"
 
 :: Get the path of the script. For the build library, it should be in the TALOS directory inside the git repository
 SET script_path=%~dp0
@@ -21,7 +21,7 @@ Taskkill /F /IM "%LabVIEW%"
 	tasklist | findstr /I "%LabVIEW%"
 	IF ERRORLEVEL 0 (
 		IF %update_git%==1 (
-			IF %git_branch_name%=="" (
+			IF %git_branch_name%!="" (
 				GOTO :switch_git_branch_block
 			) ELSE (
 				GOTO :update_git_block
