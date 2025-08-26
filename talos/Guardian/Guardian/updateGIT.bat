@@ -21,10 +21,10 @@ Taskkill /F /IM "%LabVIEW%"
 	tasklist | findstr /I "%LabVIEW%"
 	IF ERRORLEVEL 0 (
 		IF %update_git%==1 (
-			IF %git_branch_name%!="" (
-				GOTO :switch_git_branch_block
-			) ELSE (
+			IF %git_branch_name%=="" (
 				GOTO :update_git_block
+			) ELSE (
+				GOTO :switch_git_branch_block
 			)
 		) ELSE (
 			GOTO :start_guardian_block
