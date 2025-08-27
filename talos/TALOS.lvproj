@@ -87,7 +87,7 @@
 			<Item Name="test_us.lvlib" Type="Library" URL="../Test Stuff/test_us.lvlib"/>
 		</Item>
 		<Item Name="Actor Framework.lvlibp" Type="LVLibp" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp">
-			<Item Name="Time-Delayed Send Messages" Type="Folder">
+			<Item Name="Time-Delayed Send Message" Type="Folder">
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
 				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
 				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
@@ -99,6 +99,7 @@
 				<Item Name="Launch Nested Actor Msg.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Launch Nested Actor Msg/Launch Nested Actor Msg.lvclass"/>
 			</Item>
 			<Item Name="Actor.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Actor/Actor.lvclass"/>
+			<Item Name="Message Priority Queue.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Priority Queue/Message Priority Queue.lvclass"/>
 			<Item Name="Message Enqueuer.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Enqueuer/Message Enqueuer.lvclass"/>
 			<Item Name="Message Dequeuer.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Dequeuer/Message Dequeuer.lvclass"/>
 			<Item Name="Message Queue.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Queue/Message Queue.lvclass"/>
@@ -108,7 +109,6 @@
 			<Item Name="Report Error Msg.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Report Error Msg/Report Error Msg.lvclass"/>
 			<Item Name="Self-Addressed Msg.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Self-Addressed Msg/Self-Addressed Msg.lvclass"/>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/resource/AFDebug/AF Debug.lvlib"/>
-			<Item Name="Message Priority Queue.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Priority Queue/Message Priority Queue.lvclass"/>
 			<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/Utility/High Resolution Relative Seconds.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 		</Item>
@@ -227,6 +227,7 @@
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
+				<Item Name="openg_string.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/openg_string.lvlib"/>
 			</Item>
 			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -241,9 +242,6 @@
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="TALOS" Type="Packed Library">
@@ -255,7 +253,7 @@
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{28EAA83C-9613-4D63-BE1B-20C861522DFD}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">/C/LabVIEW/builds/logs/TALOS_build_log.txt</Property>
-				<Property Name="Bld_version.build" Type="Int">397</Property>
+				<Property Name="Bld_version.build" Type="Int">398</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">TALOS_PPL.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW/builds/NI_AB_PROJECTNAME/TALOS_PPL.lvlibp</Property>
