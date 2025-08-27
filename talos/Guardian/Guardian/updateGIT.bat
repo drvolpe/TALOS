@@ -3,6 +3,7 @@
 SET LabVIEW=LabVIEW.exe
 :: The first parameter of the script is the flag whether to update the git repo
 SET update_git=%1
+SET git_branch_name="%2"
 
 :: Get the path of the script. For the build library, it should be in the TALOS directory inside the git repository
 SET script_path=%~dp0
@@ -18,9 +19,13 @@ Taskkill /F /IM "%LabVIEW%"
 :wait_till_killed
 	timeout 1
 	tasklist | findstr /I "%LabVIEW%"
-	if ERRORLEVEL 0 (
-		if %update_git%==1 (
-			GOTO :update_git_block
+	IF ERRORLEVEL 0 (
+		IF %update_git%==1 (
+			IF %git_branch_name%=="" (
+				GOTO :update_git_block
+			) ELSE (
+				GOTO :switch_git_branch_block
+			)
 		) ELSE (
 			GOTO :start_guardian_block
 		)
@@ -29,10 +34,19 @@ Taskkill /F /IM "%LabVIEW%"
 	)
 ECHO "%LabVIEW%" killed succesfully
 
-:update_git_block
-ECHO Updating the git repository in "%CD%"
-:: git status
+:switch_git_branch_block
+ECHO Update and switch to "%git_branch_name%"
 git reset --hard
+git pull
+git switch %git_branch_name%
+git status
+git pull
+GOTO :start_guardian_block
+
+:update_git_block
+ECHO Update the git repository in "%CD%"
+git reset --hard
+git status
 git pull
 
 :start_guardian_block
