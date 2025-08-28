@@ -128,8 +128,6 @@
 5257,Impossible to send data to the display,0
 5258,Impossible to load the SubPanel,0
 5259,Timeout not valid,2
-5260,DAQ Sender: impossible to decode the message to send,2
-5261,DAQ Sender: error in performing the trick,0
 5270,DAQ Manager: error initialising the DAQ control object,0
 5271,DAQ Manager: error initialising the DAQ communication object,0
 5272,DAQ Manager: error starting the RUN,0
