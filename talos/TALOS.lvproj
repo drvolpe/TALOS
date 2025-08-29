@@ -87,7 +87,7 @@
 			<Item Name="test_us.lvlib" Type="Library" URL="../Test Stuff/test_us.lvlib"/>
 		</Item>
 		<Item Name="Actor Framework.lvlibp" Type="LVLibp" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp">
-			<Item Name="Time-Delayed Send Message" Type="Folder">
+			<Item Name="Time-Delayed Send Messages" Type="Folder">
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
 				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
 				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
@@ -99,7 +99,6 @@
 				<Item Name="Launch Nested Actor Msg.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Launch Nested Actor Msg/Launch Nested Actor Msg.lvclass"/>
 			</Item>
 			<Item Name="Actor.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Actor/Actor.lvclass"/>
-			<Item Name="Message Priority Queue.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Priority Queue/Message Priority Queue.lvclass"/>
 			<Item Name="Message Enqueuer.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Enqueuer/Message Enqueuer.lvclass"/>
 			<Item Name="Message Dequeuer.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Dequeuer/Message Dequeuer.lvclass"/>
 			<Item Name="Message Queue.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Queue/Message Queue.lvclass"/>
@@ -109,6 +108,7 @@
 			<Item Name="Report Error Msg.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Report Error Msg/Report Error Msg.lvclass"/>
 			<Item Name="Self-Addressed Msg.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Self-Addressed Msg/Self-Addressed Msg.lvclass"/>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/resource/AFDebug/AF Debug.lvlib"/>
+			<Item Name="Message Priority Queue.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Priority Queue/Message Priority Queue.lvclass"/>
 			<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/Utility/High Resolution Relative Seconds.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
 		</Item>
