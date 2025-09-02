@@ -84,6 +84,9 @@
 			<Item Name="TALOS.lvlib" Type="Library" URL="../TALOS.lvlib"/>
 		</Item>
 		<Item Name="Test Items" Type="Folder">
+			<Item Name="Test config class" Type="Folder">
+				<Item Name="Test config class.vi" Type="VI" URL="../Test Stuff/Test config class.vi"/>
+			</Item>
 			<Item Name="test_us.lvlib" Type="Library" URL="../Test Stuff/test_us.lvlib"/>
 		</Item>
 		<Item Name="Actor Framework.lvlibp" Type="LVLibp" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp">
@@ -227,6 +230,7 @@
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>
 				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
+				<Item Name="openg_string.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/openg_string.lvlib"/>
 			</Item>
 			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
