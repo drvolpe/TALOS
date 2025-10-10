@@ -52,6 +52,7 @@
 5051,Error in asking if the GD is the Bearer,3
 5052,Error in raising or propagating Abort,3
 5053,Error in processing Guardian farewell,3
+5054,Error in loading the Run Configuration file,0
 5100,Father of All uServices,0
 5101,Impossible to subscribe to the SV Value Update Notification.,0
 5102,Wrong message!,2
