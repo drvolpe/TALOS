@@ -115,7 +115,7 @@
 5241,Error updating Is in Packed Library? global variable,3
 5242,Error converting Shared Variable refnum to control,0
 5243,Error checking uService status,2
-5244,AF error while sending a message,4
+5244,AF error while sending a message,3
 5245,Error in generating the CIRCUS Root Path,3
 5246,Error in generating the TALOS Root Path,3
 5247,Error in generating the CIRCUS SV Path,3
@@ -131,6 +131,7 @@
 5257,Impossible to send data to the display,0
 5258,Impossible to load the SubPanel,0
 5259,Timeout not valid,2
+5260,Error in converting Run Status to boolean,0
 5270,DAQ Manager: error initialising the DAQ control object,0
 5271,DAQ Manager: error initialising the DAQ communication object,0
 5272,DAQ Manager: error starting the RUN,0
