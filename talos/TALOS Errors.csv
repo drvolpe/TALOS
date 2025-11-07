@@ -154,7 +154,8 @@
 5313,Error in operating the STOP button cover,0
 5314,Error in switching uService view,0
 5330,GD Subpanel,0
-5331,GD Subpanel: error in updating the Run Config Ring,0
+5340,Run Config Manager,0
+5341,GD Subpanel: error in updating the Run Config Ring,0
 5350,TCP Comms,0
 5351,TCP Server: first message not received,0
 5352,TCP Server: first message wrong,3
