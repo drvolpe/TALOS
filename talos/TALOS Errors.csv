@@ -55,6 +55,7 @@
 5054,Error in loading the Run Configuration file,0
 5055,Error while aligning the uServices running to the new Run Configuration,0
 5056,Error in processing the Run Configuration Update message,0
+5057,Error while adding the uServices to the new Run Configuration,0
 5100,Father of All uServices,0
 5101,Impossible to subscribe to the SV Value Update Notification.,0
 5102,Wrong message!,2
