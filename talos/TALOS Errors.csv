@@ -68,6 +68,10 @@
 5113,Error in enqueing the button pressed event,0
 5114,Error in sending delayed message to the consumer,0
 5115,Error enabling/disabling control,0
+5116,Error saving GUI as JPG,0
+5117,Error creating log file path,0
+5118,Error saving WaveChart history,0
+5119,Error loading WaveChart history,0
 5200,TALOS Misc,0
 5201,uService List: Key not found,2
 5202,CIRCUS Configuration Parameter: Parameter not found,2
