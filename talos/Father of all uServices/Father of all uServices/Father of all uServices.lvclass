@@ -383,14 +383,32 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342713872</Property>
 		</Item>
-		<Item Name="Load Waveform Chart history.vi" Type="VI" URL="../Load Waveform Chart history.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(*!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!("!=!!?!!",#V2"4%^4,GRW&lt;'FC(5:B&gt;'BF=C"P:C"B&lt;'QA&gt;6.F=H:J9W6T,GRW&lt;'FC(U:B&gt;'BF=C"P:C"B&lt;'QA&gt;6.F=H:J9W6T,GRW9WRB=X-!'U:B&gt;'BF=C"P:C"B&lt;'QA&gt;6.F=H:J9W6T)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"2!)1Z.&gt;7RU;8"M:3"Q&lt;'^U=Q!!'%!Q`````QZ1&lt;'^U)%&gt;633"M97*F&lt;!!!=%"Q!"Y!!%M,6%&amp;-4V-O&lt;(:M;7)&gt;2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-O&lt;(:M;7)@2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-O&lt;(:D&lt;'&amp;T=Q!;2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!=!#!!*!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!#!!!!!A!!!#1!!!!!!%!#A!!!!!</Property>
+		<Item Name="Load Waveform Chart History - multiple plots.vi" Type="VI" URL="../Load Waveform Chart History - multiple plots.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)!!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!6!!$#&amp;&gt;B&gt;G6G&lt;X*N!!!O1%!!!P``````````!!5&gt;3'FT&gt;'^S?3"%982B)#UA&lt;86M&gt;'FQ&lt;'5A='RP&gt;(-!=%"Q!"Y!!%M,6%&amp;-4V-O&lt;(:M;7)&gt;2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-O&lt;(:M;7)@2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-O&lt;(:D&lt;'&amp;T=Q!&lt;2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!'%!Q`````QZ1&lt;'^U)%&gt;633"M97*F&lt;!!!=%"Q!"Y!!%M,6%&amp;-4V-O&lt;(:M;7)&gt;2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-O&lt;(:M;7)@2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-O&lt;(:D&lt;'&amp;T=Q!;2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-A;7Y!!'%!]!!-!!-!"!!'!!=!"!!%!!1!"!!)!!1!#1!+!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!"!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!M!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342714384</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		</Item>
+		<Item Name="Load Waveform Chart History - single plot.vi" Type="VI" URL="../Load Waveform Chart History - single plot.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!([!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!6!!$#&amp;&gt;B&gt;G6G&lt;X*N!!!I1%!!!@````]!"2J);8.U&lt;X*Z)%2B&gt;'%A,3"T;7ZH&lt;'5A='RP&gt;!!!=%"Q!"Y!!%M,6%&amp;-4V-O&lt;(:M;7)&gt;2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-O&lt;(:M;7)@2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-O&lt;(:D&lt;'&amp;T=Q!&lt;2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-A&lt;X6U!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!'%!Q`````QZ1&lt;'^U)%&gt;633"M97*F&lt;!!!=%"Q!"Y!!%M,6%&amp;-4V-O&lt;(:M;7)&gt;2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-O&lt;(:M;7)@2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-O&lt;(:D&lt;'&amp;T=Q!;2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-A;7Y!!'%!]!!-!!-!"!!'!!=!"!!%!!1!"!!)!!1!#1!+!Q!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!"!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!M!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+		</Item>
+		<Item Name="Load Waveform Chart History.vi" Type="VI" URL="../Load Waveform Chart History.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0*R-T=?!!%!!!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 		</Item>
 		<Item Name="Message to Event Handler.vi" Type="VI" URL="../Children Methods/Message to Event Handler.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'[!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!'J!=!!?!!",#V2"4%^4,GRW&lt;'FC(5:B&gt;'BF=C"P:C"B&lt;'QA&gt;6.F=H:J9W6T,GRW&lt;'FC(U:B&gt;'BF=C"P:C"B&lt;'QA&gt;6.F=H:J9W6T,GRW9WRB=X-!&amp;864:8*W;7.F)&amp;2F&lt;8"M982F)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!J!5Q2%982B!!!31$$`````#5FU:7UA4G&amp;N:1"K1(!!(A!!3QN515R05SZM&gt;GRJ9BV'982I:8)A&lt;W9A97RM)(64:8*W;7.F=SZM&gt;GRJ9B^'982I:8)A&lt;W9A97RM)(64:8*W;7.F=SZM&gt;G.M98.T!"2V5W6S&gt;GFD:3"5:7VQ&lt;'&amp;U:3"J&lt;A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"Q!)!!E$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!+!!!#%!!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#A!!!!!</Property>
@@ -437,14 +455,32 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1342714384</Property>
 		</Item>
-		<Item Name="Save Waveform Chart history.vi" Type="VI" URL="../Children Methods/Save Waveform Chart history.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(*!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!("!=!!?!!",#V2"4%^4,GRW&lt;'FC(5:B&gt;'BF=C"P:C"B&lt;'QA&gt;6.F=H:J9W6T,GRW&lt;'FC(U:B&gt;'BF=C"P:C"B&lt;'QA&gt;6.F=H:J9W6T,GRW9WRB=X-!'U:B&gt;'BF=C"P:C"B&lt;'QA&gt;6.F=H:J9W6T)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"2!)1Z.&gt;7RU;8"M:3"Q&lt;'^U=Q!!'%!Q`````QZ1&lt;'^U)%&gt;633"M97*F&lt;!!!=%"Q!"Y!!%M,6%&amp;-4V-O&lt;(:M;7)&gt;2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-O&lt;(:M;7)@2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-O&lt;(:D&lt;'&amp;T=Q!;2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-A;7Y!!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!=!#!!*!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!#!!!!!A!!!#1!!!!!!%!#A!!!!!</Property>
+		<Item Name="Save Waveform Chart history - multiple plots.vi" Type="VI" URL="../Children Methods/Save Waveform Chart history - multiple plots.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)!!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!("!=!!?!!",#V2"4%^4,GRW&lt;'FC(5:B&gt;'BF=C"P:C"B&lt;'QA&gt;6.F=H:J9W6T,GRW&lt;'FC(U:B&gt;'BF=C"P:C"B&lt;'QA&gt;6.F=H:J9W6T,GRW9WRB=X-!'U:B&gt;'BF=C"P:C"B&lt;'QA&gt;6.F=H:J9W6T)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!""!6!!$#&amp;&gt;B&gt;G6G&lt;X*N!!!O1%!!!P``````````!!=&gt;3'FT&gt;'^S?3"%982B)#UA&lt;86M&gt;'FQ&lt;'5A='RP&gt;(-!'%!Q`````QZ1&lt;'^U)%&gt;633"M97*F&lt;!!!=%"Q!"Y!!%M,6%&amp;-4V-O&lt;(:M;7)&gt;2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-O&lt;(:M;7)@2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-O&lt;(:D&lt;'&amp;T=Q!;2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-A;7Y!!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!A!#1!+!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!"#A!!!"!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!M!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1879581200</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		</Item>
+		<Item Name="Save Waveform Chart history - single plot.vi" Type="VI" URL="../Children Methods/Save Waveform Chart history - single plot.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!([!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!("!=!!?!!",#V2"4%^4,GRW&lt;'FC(5:B&gt;'BF=C"P:C"B&lt;'QA&gt;6.F=H:J9W6T,GRW&lt;'FC(U:B&gt;'BF=C"P:C"B&lt;'QA&gt;6.F=H:J9W6T,GRW9WRB=X-!'U:B&gt;'BF=C"P:C"B&lt;'QA&gt;6.F=H:J9W6T)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!""!6!!$#&amp;&gt;B&gt;G6G&lt;X*N!!!I1%!!!@````]!"RN);8.U&lt;X*Z)%2B&gt;'%A,3"T;7ZH='RF)("M&lt;X1!'%!Q`````QZ1&lt;'^U)%&gt;633"M97*F&lt;!!!=%"Q!"Y!!%M,6%&amp;-4V-O&lt;(:M;7)&gt;2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-O&lt;(:M;7)@2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-O&lt;(:D&lt;'&amp;T=Q!;2G&amp;U;'6S)'^G)'&amp;M&lt;#"V5W6S&gt;GFD:8-A;7Y!!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!A!#1!+!Q!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!"#A!!!"!!!!!1!!!.!!!!$!!!!!!!!!!!!!!"!!M!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		</Item>
+		<Item Name="Save Waveform Chart History.vi" Type="VI" URL="../Children Methods/Save Waveform Chart History.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!1!!!!!1!)!0*R-C0,!!%!!!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">-2147483648</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
 		</Item>
 		<Item Name="Send to Consumer.vi" Type="VI" URL="../Children Methods/Send to Consumer.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'U!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!'J!=!!?!!",#V2"4%^4,GRW&lt;'FC(5:B&gt;'BF=C"P:C"B&lt;'QA&gt;6.F=H:J9W6T,GRW&lt;'FC(U:B&gt;'BF=C"P:C"B&lt;'QA&gt;6.F=H:J9W6T,GRW9WRB=X-!&amp;864:8*W;7.F)&amp;2F&lt;8"M982F)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!!J!5Q2%982B!!!-1&amp;-(1W&amp;T:3"*2!"K1(!!(A!!3QN515R05SZM&gt;GRJ9BV'982I:8)A&lt;W9A97RM)(64:8*W;7.F=SZM&gt;GRJ9B^'982I:8)A&lt;W9A97RM)(64:8*W;7.F=SZM&gt;G.M98.T!"2V5W6S&gt;GFD:3"5:7VQ&lt;'&amp;U:3"J&lt;A!!91$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"Q!)!!E$!!"Y!!!.#!!!!!!!!!!!!!!.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!+!!!!%A!!!"!!!!U!!!!-!!!!!!!!!!!!!!%!#A!!!!!</Property>
@@ -518,7 +554,25 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">268967952</Property>
 		</Item>
-		<Item Name="Waveform Chart Class Reference Strict with correct Data Type.ctl" Type="VI" URL="../Children Methods/Waveform Chart Class Reference Strict with correct Data Type.ctl">
+		<Item Name="Update Waveform Chart History.vi" Type="VI" URL="../Children Methods/Update Waveform Chart History.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'&gt;!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!("!=!!?!!",#V2"4%^4,GRW&lt;'FC(5:B&gt;'BF=C"P:C"B&lt;'QA&gt;6.F=H:J9W6T,GRW&lt;'FC(U:B&gt;'BF=C"P:C"B&lt;'QA&gt;6.F=H:J9W6T,GRW9WRB=X-!'U:B&gt;'BF=C"P:C"B&lt;'QA&gt;6.F=H:J9W6T)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!("!=!!?!!",#V2"4%^4,GRW&lt;'FC(5:B&gt;'BF=C"P:C"B&lt;'QA&gt;6.F=H:J9W6T,GRW&lt;'FC(U:B&gt;'BF=C"P:C"B&lt;'QA&gt;6.F=H:J9W6T,GRW9WRB=X-!'E:B&gt;'BF=C"P:C"B&lt;'QA&gt;6.F=H:J9W6T)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q)!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+		</Item>
+		<Item Name="Waveform Chart Class Reference Strict - multiple plots.ctl" Type="VI" URL="../Children Methods/Waveform Chart Class Reference Strict - multiple plots.ctl">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"M!!!!!1"E!0%!!!!!!!!!"!N515R05SZM&gt;GRJ9BV'982I:8)A&lt;W9A97RM)(64:8*W;7.F=SZM&gt;GRJ9B^'982I:8)A&lt;W9A97RM)(64:8*W;7.F=SZM&gt;G.M98.T#5.P&lt;H2S&lt;WQA-1!)!!!!!1!!!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">5242880</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074541056</Property>
+		</Item>
+		<Item Name="Waveform Chart Class Reference Strict - single plot.ctl" Type="VI" URL="../Children Methods/Waveform Chart Class Reference Strict - single plot.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#1!!!!!A!'!&amp;1!!Q##!0(?+4`7!!!!"!N515R05SZM&gt;GRJ9BV'982I:8)A&lt;W9A97RM)(64:8*W;7.F=SZM&gt;GRJ9B^'982I:8)A&lt;W9A97RM)(64:8*W;7.F=SZM&gt;G.M98.T$5.P&lt;H2S&lt;WQA-3ZD&gt;'Q!)E"Q!!A!!1!!!"=!!!Z82E.I98*U)&amp;*F:GZV&lt;1!!!1!"!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">3145728</Property>
