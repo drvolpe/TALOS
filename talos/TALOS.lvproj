@@ -277,7 +277,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{765CA99F-34F9-4A85-A5CE-381DF594044C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F5A1080C-8048-48DA-B24C-A83AD0C098C5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TALOS/TALOS.lvlib</Property>
