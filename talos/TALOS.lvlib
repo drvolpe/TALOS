@@ -43,6 +43,7 @@
 			<Item Name="TCP Listener.lvlib" Type="Library" URL="../Internal uServices/System uServices/TCP Listener/TCP Listener.lvlib"/>
 			<Item Name="TCP Server.lvlib" Type="Library" URL="../Internal uServices/System uServices/TCP Server/TCP Server.lvlib"/>
 			<Item Name="TCP Writer.lvlib" Type="Library" URL="../Internal uServices/System uServices/TCP Writer/TCP Writer.lvlib"/>
+			<Item Name="TCP Text Writer.lvlib" Type="Library" URL="../Internal uServices/System uServices/TCP Text Writer/TCP Text Writer.lvlib"/>
 		</Item>
 		<Item Name="Template Internal uService.lvlib" Type="Library" URL="../Internal uServices/Template Internal uService/Template Internal uService.lvlib"/>
 	</Item>
