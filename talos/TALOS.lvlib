@@ -76,6 +76,7 @@
 				<Item Name="Paused Button.ctl" Type="VI" URL="../Support VIs/Paused Button.ctl"/>
 				<Item Name="Stopped Button.ctl" Type="VI" URL="../Support VIs/Stopped Button.ctl"/>
 			</Item>
+			<Item Name="Bool to String.vi" Type="VI" URL="../Support VIs/Bool to String.vi"/>
 			<Item Name="Circus Critical PCs List.vi" Type="VI" URL="../Support VIs/Circus Critical PCs List.vi"/>
 			<Item Name="Circus FPGA List.vi" Type="VI" URL="../Support VIs/Circus FPGA List.vi"/>
 			<Item Name="Circus Kaslis IPs.vi" Type="VI" URL="../Support VIs/Circus Kaslis IPs.vi"/>
