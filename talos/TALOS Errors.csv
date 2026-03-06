@@ -52,7 +52,11 @@
 5051,Error in asking if the GD is the Bearer,3
 5052,Error in raising or propagating Abort,3
 5053,Error in processing Guardian farewell,3
-5054,Message to a Textual GD not in plain text,3
+5054,Error in loading the Run Configuration file,0
+5055,Error while aligning the uServices running to the new Run Configuration,0
+5056,Error in processing the Run Configuration Update message,0
+5057,Error while adding the uServices to the new Run Configuration,0
+5058,Message to a Textual GD not in plain text,3
 5100,Father of All uServices,0
 5101,Impossible to subscribe to the SV Value Update Notification.,0
 5102,Wrong message!,2
@@ -69,6 +73,10 @@
 5113,Error in enqueing the button pressed event,0
 5114,Error in sending delayed message to the consumer,0
 5115,Error enabling/disabling control,0
+5116,Error saving GUI as JPG,0
+5117,Error creating log file path,0
+5118,Error saving WaveChart history,0
+5119,Error loading WaveChart history,0
 5200,TALOS Misc,0
 5201,uService List: Key not found,2
 5202,CIRCUS Configuration Parameter: Parameter not found,2
@@ -113,7 +121,7 @@
 5241,Error updating Is in Packed Library? global variable,3
 5242,Error converting Shared Variable refnum to control,0
 5243,Error checking uService status,2
-5244,AF error while sending a message,4
+5244,AF error while sending a message,3
 5245,Error in generating the CIRCUS Root Path,3
 5246,Error in generating the TALOS Root Path,3
 5247,Error in generating the CIRCUS SV Path,3
@@ -129,6 +137,7 @@
 5257,Impossible to send data to the display,0
 5258,Impossible to load the SubPanel,0
 5259,Timeout not valid,2
+5260,Error in converting Run Status to boolean,0
 5270,DAQ Manager: error initialising the DAQ control object,0
 5271,DAQ Manager: error initialising the DAQ communication object,0
 5272,DAQ Manager: error starting the RUN,0
@@ -150,6 +159,9 @@
 5312,Error in setting the background image!,0
 5313,Error in operating the STOP button cover,0
 5314,Error in switching uService view,0
+5330,GD Subpanel,0
+5340,Run Config Manager,0
+5341,GD Subpanel: error in updating the Run Config Ring,0
 5350,TCP Comms,0
 5351,TCP Server: first message not received,0
 5352,TCP Server: first message wrong,3
