@@ -91,6 +91,7 @@
 			<Item Name="Global Constants.vi" Type="VI" URL="../Support VIs/Global Constants.vi"/>
 			<Item Name="Global Memory.vi" Type="VI" URL="../Support VIs/Global Memory.vi"/>
 			<Item Name="Go-NoGo.ctl" Type="VI" URL="../Support VIs/Go-NoGo.ctl"/>
+			<Item Name="Is a textual Guardian.vi" Type="VI" URL="../Guardian/Guardian/Is a textual Guardian.vi"/>
 			<Item Name="Is in Packed Library.vi" Type="VI" URL="../Support VIs/Is in Packed Library.vi"/>
 			<Item Name="Load FPGA Interface.vi" Type="VI" URL="../Support VIs/Load FPGA Interface.vi"/>
 			<Item Name="ping.vi" Type="VI" URL="../Support VIs/ping.vi"/>
