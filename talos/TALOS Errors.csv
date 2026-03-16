@@ -158,6 +158,9 @@
 5312,Error in setting the background image!,0
 5313,Error in operating the STOP button cover,0
 5314,Error in switching uService view,0
+5315,Error opening remote uService GUI,0
+5316,Error closing remote uService GUI,0
+5317,Wrong data for Remote uService GUI,0
 5330,GD Subpanel,0
 5340,Run Config Manager,0
 5341,GD Subpanel: error in updating the Run Config Ring,0
