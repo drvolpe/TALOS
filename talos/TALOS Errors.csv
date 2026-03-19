@@ -197,6 +197,11 @@
 5403,Error while digesting the error,3
 5404,Error while dismissing the error selected,0
 5405,Error while dismissing all errors ,0
+5410,Local Error Manager,0
+5411,Error starting local Error Manager,3
+5412,Error Displaing Error details,0
+5413,Error while digesting the error,3
+5414,Error Manager not online,4
 5450,Config class,0
 5451,Config class: init error,0
 5452,Config class: empty config file path provided,0
