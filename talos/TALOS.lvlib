@@ -98,6 +98,7 @@
 			<Item Name="Read CSV worksheet.vi" Type="VI" URL="../Support VIs/Read CSV worksheet.vi"/>
 			<Item Name="Remove double quotes.vi" Type="VI" URL="../Support VIs/Remove double quotes.vi"/>
 			<Item Name="Search Array of Strings.vi" Type="VI" URL="../Support VIs/Search Array of Strings.vi"/>
+			<Item Name="Separate IP from Port.vi" Type="VI" URL="../Support VIs/Separate IP from Port.vi"/>
 			<Item Name="String to Bool.vi" Type="VI" URL="../Support VIs/String to Bool.vi"/>
 			<Item Name="SV name extractor.vi" Type="VI" URL="../Father of all uServices/Father of all uServices/SV name extractor.vi"/>
 			<Item Name="SV Refnum to Control.vi" Type="VI" URL="../Support VIs/SV Refnum to Control.vi"/>
