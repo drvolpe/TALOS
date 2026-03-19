@@ -6,5 +6,6 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Error Manager.lvclass" Type="LVClass" URL="../Global Error Manager/Error Manager.lvclass"/>
+	<Item Name="Error Manager.lvclass" Type="LVClass" URL="../Error Manager.lvclass"/>
+	<Item Name="Local Error Manager.lvclass" Type="LVClass" URL="../Local Error Manager/Local Error Manager.lvclass"/>
 </Library>
