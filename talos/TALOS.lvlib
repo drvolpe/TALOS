@@ -69,6 +69,7 @@
 			<Item Name="Custom General Error Handler.vi" Type="VI" URL="../Support VIs/Custom General Error Handler.vi"/>
 			<Item Name="Substitute Error.vi" Type="VI" URL="../Support VIs/Substitute Error.vi"/>
 			<Item Name="TALOS Errors.csv" Type="Document" URL="../TALOS Errors.csv"/>
+			<Item Name="Get Local Error Manager Name.vi" Type="VI" URL="../Support VIs/Get Local Error Manager Name.vi"/>
 		</Item>
 		<Item Name="Misc" Type="Folder">
 			<Item Name="Indicator" Type="Folder">
