@@ -76,6 +76,10 @@
 5117,Error creating log file path,0
 5118,Error saving WaveChart history,0
 5119,Error loading WaveChart history,0
+5190,Distributed uService List,0
+5191,Distributed uService List: error creating reference,2
+5192,Distributed uService List: reference error,2
+5193,Distributed uService List: key not found,2
 5200,TALOS Misc,0
 5201,uService List: Key not found,2
 5202,CIRCUS Configuration Parameter: Parameter not found,2
@@ -89,7 +93,7 @@
 5210,Error while rotating the log file!,0
 5211,uService List: Added a uService already present in the list!,0
 5212,The reference to the uS List does not exist,3
-5213,Distributed uService List: key not found,2
+5213, ,0
 5214,Impossible to locate ABORT on the network: deployed one in locale,0
 5215,"At least one SV was found, but an error occurred",2
 5216,TALOS Configuration Parameter: Init Error,3
