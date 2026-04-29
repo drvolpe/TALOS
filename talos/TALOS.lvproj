@@ -62,7 +62,7 @@
 </Property>
 		<Property Name="AF.Actors" Type="Str">Ancestor,Father of all uServices
 </Property>
-		<Property Name="AF.PPL" Type="Path">/C/Users/marco/Documents/GitHub_Lab/TALOS/builds/Actor Framework PPL/Actor Framework.lvlibp</Property>
+		<Property Name="AF.PPL" Type="Path">/C/LabVIEW Code/TALOS/builds/Actor Framework PPL/Actor Framework.lvlibp</Property>
 		<Property Name="CCSymbols" Type="Str"></Property>
 		<Property Name="DisableAutoDeployVariables" Type="Bool">true</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -265,7 +265,7 @@
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{28EAA83C-9613-4D63-BE1B-20C861522DFD}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">/C/LabVIEW/builds/logs/TALOS_build_log.txt</Property>
-				<Property Name="Bld_version.build" Type="Int">410</Property>
+				<Property Name="Bld_version.build" Type="Int">417</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">TALOS_PPL.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW/builds/NI_AB_PROJECTNAME/TALOS_PPL.lvlibp</Property>

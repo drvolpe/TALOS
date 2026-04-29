@@ -44,6 +44,8 @@
 			<Item Name="TCP Server.lvlib" Type="Library" URL="../Internal uServices/System uServices/TCP Server/TCP Server.lvlib"/>
 			<Item Name="Run Config Manager.lvlib" Type="Library" URL="../Internal uServices/System uServices/Run Config Manager/Run Config Manager.lvlib"/>
 			<Item Name="TCP Writer.lvlib" Type="Library" URL="../Internal uServices/System uServices/TCP Writer/TCP Writer.lvlib"/>
+			<Item Name="TCP Text Writer.lvlib" Type="Library" URL="../Internal uServices/System uServices/TCP Text Writer/TCP Text Writer.lvlib"/>
+			<Item Name="TCP Text Listener.lvlib" Type="Library" URL="../Internal uServices/System uServices/TCP Text Listener/TCP Text Listener.lvlib"/>
 		</Item>
 		<Item Name="Template Internal uService.lvlib" Type="Library" URL="../Internal uServices/Template Internal uService/Template Internal uService.lvlib"/>
 	</Item>
@@ -75,6 +77,7 @@
 				<Item Name="Paused Button.ctl" Type="VI" URL="../Support VIs/Paused Button.ctl"/>
 				<Item Name="Stopped Button.ctl" Type="VI" URL="../Support VIs/Stopped Button.ctl"/>
 			</Item>
+			<Item Name="Bool to String.vi" Type="VI" URL="../Support VIs/Bool to String.vi"/>
 			<Item Name="Circus Critical PCs List.vi" Type="VI" URL="../Support VIs/Circus Critical PCs List.vi"/>
 			<Item Name="Circus FPGA List.vi" Type="VI" URL="../Support VIs/Circus FPGA List.vi"/>
 			<Item Name="Circus Kaslis IPs.vi" Type="VI" URL="../Support VIs/Circus Kaslis IPs.vi"/>
@@ -88,12 +91,14 @@
 			<Item Name="Global Constants.vi" Type="VI" URL="../Support VIs/Global Constants.vi"/>
 			<Item Name="Global Memory.vi" Type="VI" URL="../Support VIs/Global Memory.vi"/>
 			<Item Name="Go-NoGo.ctl" Type="VI" URL="../Support VIs/Go-NoGo.ctl"/>
+			<Item Name="Is a textual Guardian.vi" Type="VI" URL="../Guardian/Guardian/Is a textual Guardian.vi"/>
 			<Item Name="Is in Packed Library.vi" Type="VI" URL="../Support VIs/Is in Packed Library.vi"/>
 			<Item Name="Load FPGA Interface.vi" Type="VI" URL="../Support VIs/Load FPGA Interface.vi"/>
 			<Item Name="ping.vi" Type="VI" URL="../Support VIs/ping.vi"/>
 			<Item Name="Read CSV worksheet.vi" Type="VI" URL="../Support VIs/Read CSV worksheet.vi"/>
 			<Item Name="Remove double quotes.vi" Type="VI" URL="../Support VIs/Remove double quotes.vi"/>
 			<Item Name="Search Array of Strings.vi" Type="VI" URL="../Support VIs/Search Array of Strings.vi"/>
+			<Item Name="Separate IP from Port.vi" Type="VI" URL="../Support VIs/Separate IP from Port.vi"/>
 			<Item Name="String to Bool.vi" Type="VI" URL="../Support VIs/String to Bool.vi"/>
 			<Item Name="SV name extractor.vi" Type="VI" URL="../Father of all uServices/Father of all uServices/SV name extractor.vi"/>
 			<Item Name="SV Refnum to Control.vi" Type="VI" URL="../Support VIs/SV Refnum to Control.vi"/>

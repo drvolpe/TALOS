@@ -11,6 +11,7 @@
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Abort Status Check Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Abort Status Check Msg/Abort Status Check Msg.lvclass"/>
 		<Item Name="All Watchdog Manager Msg.lvclass" Type="LVClass" URL="../Guardian Messages/All Watchdog Manager Msg/All Watchdog Manager Msg.lvclass"/>
+		<Item Name="Ask for Run Config Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Ask for Run Config Msg/Ask for Run Config Msg.lvclass"/>
 		<Item Name="Broadcast to Guardians Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Broadcast to Guardians Msg/Broadcast to Guardians Msg.lvclass"/>
 		<Item Name="Button Pressed Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Button Pressed Msg/Button Pressed Msg.lvclass"/>
 		<Item Name="Guardian Died Recheck Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Guardian Died Recheck Msg/Guardian Died Recheck Msg.lvclass"/>
@@ -26,6 +27,7 @@
 		<Item Name="Raise or Lower Abort Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Raise or Lower Abort Msg/Raise or Lower Abort Msg.lvclass"/>
 		<Item Name="Ready to launch Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Ready to launch Msg/Ready to launch Msg.lvclass"/>
 		<Item Name="Requests from uServices Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Requests from uServices Msg/Requests from uServices Msg.lvclass"/>
+		<Item Name="Start-stop asking for run cfg Msg.lvclass" Type="LVClass" URL="../Guardian Messages/Start-stop asking for run cfg Msg/Start-stop asking for run cfg Msg.lvclass"/>
 		<Item Name="TCP-SV Message Interpreter Msg.lvclass" Type="LVClass" URL="../Guardian Messages/TCP-SV Message Interpreter Msg/TCP-SV Message Interpreter Msg.lvclass"/>
 		<Item Name="uService not responding Msg.lvclass" Type="LVClass" URL="../Guardian Messages/uService not responding Msg/uService not responding Msg.lvclass"/>
 		<Item Name="uServices Status Check Msg.lvclass" Type="LVClass" URL="../Guardian Messages/uServices Status Check Msg/uServices Status Check Msg.lvclass"/>
