@@ -88,6 +88,8 @@
 				<Item Name="Test config class.vi" Type="VI" URL="../Test Stuff/Test config class.vi"/>
 			</Item>
 			<Item Name="test_us.lvlib" Type="Library" URL="../Test Stuff/test_us.lvlib"/>
+			<Item Name="Error to json and back.vi" Type="VI" URL="../Test Stuff/Error to json and back.vi"/>
+			<Item Name="Encode-Decode test.vi" Type="VI" URL="../Test Stuff/Encode-Decode test.vi"/>
 		</Item>
 		<Item Name="Actor Framework.lvlibp" Type="LVLibp" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp">
 			<Item Name="Time-Delayed Send Message" Type="Folder">
@@ -265,7 +267,7 @@
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{28EAA83C-9613-4D63-BE1B-20C861522DFD}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">/C/LabVIEW/builds/logs/TALOS_build_log.txt</Property>
-				<Property Name="Bld_version.build" Type="Int">421</Property>
+				<Property Name="Bld_version.build" Type="Int">422</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">TALOS_PPL.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW/builds/NI_AB_PROJECTNAME/TALOS_PPL.lvlibp</Property>

@@ -105,6 +105,8 @@
 			<Item Name="SV Refnum to Control.vi" Type="VI" URL="../Support VIs/SV Refnum to Control.vi"/>
 			<Item Name="Temporised Pop-up Window - Core.vi" Type="VI" URL="../Support VIs/Temporised Pop-up Window - Core.vi"/>
 			<Item Name="Temporised Pop-up Window.vi" Type="VI" URL="../Support VIs/Temporised Pop-up Window.vi"/>
+			<Item Name="Timestamp to Unix Epoch.vi" Type="VI" URL="../Support VIs/Timestamp to Unix Epoch.vi"/>
+			<Item Name="Unix Epoch to Timestamp.vi" Type="VI" URL="../Support VIs/Unix Epoch to Timestamp.vi"/>
 		</Item>
 		<Item Name="Paths" Type="Folder">
 			<Item Name="Circus Root Path.vi" Type="VI" URL="../Support VIs/Circus Root Path.vi"/>
