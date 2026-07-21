@@ -201,7 +201,7 @@
 5378,TCP Server: Legacy message arrived,0
 5379,TCP Listener: error in opening the accepting connections,0
 5380,TCP Server: Unknown error while opening the connection,0
-5352,TCP Listener: first message wrong,0
+5381,Error in finding the Guardian ID to compute TCP Server Port,0
 5400,Error Manager,0
 5401,Error in parsing the error message,3
 5402,Error while init the Error Manager,3
