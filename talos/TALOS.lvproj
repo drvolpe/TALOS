@@ -262,7 +262,7 @@
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{28EAA83C-9613-4D63-BE1B-20C861522DFD}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">/C/LabVIEW/builds/logs/TALOS_build_log.txt</Property>
-				<Property Name="Bld_version.build" Type="Int">420</Property>
+				<Property Name="Bld_version.build" Type="Int">422</Property>
 				<Property Name="Bld_version.major" Type="Int">4</Property>
 				<Property Name="Destination[0].destName" Type="Str">TALOS_PPL.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW/builds/NI_AB_PROJECTNAME/TALOS_PPL.lvlibp</Property>
@@ -274,7 +274,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2BFCC629-08F0-4C89-9CCF-134680CD0811}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A0E8F36F-4883-48DB-B314-3A2598842906}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TALOS/TALOS.lvlib</Property>

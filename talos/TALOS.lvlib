@@ -95,6 +95,7 @@
 			<Item Name="Is in Packed Library.vi" Type="VI" URL="../Support VIs/Is in Packed Library.vi"/>
 			<Item Name="Load FPGA Interface.vi" Type="VI" URL="../Support VIs/Load FPGA Interface.vi"/>
 			<Item Name="ping.vi" Type="VI" URL="../Support VIs/ping.vi"/>
+			<Item Name="Post.ctl" Type="VI" URL="../Support VIs/Post.ctl"/>
 			<Item Name="Read CSV worksheet.vi" Type="VI" URL="../Support VIs/Read CSV worksheet.vi"/>
 			<Item Name="Remove double quotes.vi" Type="VI" URL="../Support VIs/Remove double quotes.vi"/>
 			<Item Name="Search Array of Strings.vi" Type="VI" URL="../Support VIs/Search Array of Strings.vi"/>
