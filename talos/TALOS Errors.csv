@@ -78,10 +78,10 @@
 5117,Error creating log file path,0
 5118,Error saving WaveChart history,0
 5119,Error loading WaveChart history,0
-5190,Distributed uService List,0
-5191,Distributed uService List: error creating reference,2
-5192,Distributed uService List: reference error,2
-5193,Distributed uService List: key not found,2
+5190,Distributed uService Map,0
+5191,Distributed uService Map: error creating reference,2
+5192,Distributed uService Map: reference error,2
+5193,Distributed uService Map: key not found,2
 5200,TALOS Misc,0
 5201,uService List: Key not found,2
 5202,CIRCUS Configuration Parameter: Parameter not found,2
