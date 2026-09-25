@@ -141,4 +141,5 @@
 	<Item Name="Guardian.lvlib" Type="Library" URL="../Guardian/Guardian.lvlib"/>
 	<Item Name="Interfaces.lvlib" Type="Library" URL="../Interfaces/Interfaces.lvlib"/>
 	<Item Name="Launcher.vi" Type="VI" URL="../Launcher.vi"/>
+	<Item Name="TALOS.version" Type="Document" URL="../TALOS.version"/>
 </Library>
