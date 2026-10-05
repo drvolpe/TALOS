@@ -95,7 +95,7 @@
 5210,Error while rotating the log file!,0
 5211,uService List: Added a uService already present in the list!,0
 5212,The reference to the uS List does not exist,3
-5213,Distributed uService List: key not found,2
+5213, ,0
 5214,Impossible to locate ABORT on the network: deployed one in locale,0
 5215,"At least one SV was found, but an error occurred",2
 5216,TALOS Configuration Parameter: Init Error,3
@@ -198,13 +198,25 @@
 5375,TCP Server: Error while replying Who is the Bearer,3
 5376,TCP Server: Error in rerouting Farewell message to Guardian,3
 5377,TCP Text Writer: error encoding message,0
-5381,TCP Server: External message password wrong!,0
+5378,TCP Server: Legacy message arrived,0
+5379,TCP Listener: error in opening the accepting connections,0
+5380,TCP Server: Unknown error while opening the connection,0
+5381,Error in finding the Guardian ID to compute TCP Server Port,0
+5382,TCP Server: External message password wrong!,0
 5400,Error Manager,0
 5401,Error in parsing the error message,3
 5402,Error while init the Error Manager,3
 5403,Error while digesting the error,3
 5404,Error while dismissing the error selected,0
 5405,Error while dismissing all errors ,0
+5406,Error displaying details,0
+5407,Type conversion error,0
+5410,Local Error Manager,0
+5411,Error starting local Error Manager,3
+5412,Error Displaing Error details,0
+5413,Error while digesting the error,3
+5414,Error Manager not online,4
+5415,Error Updating error filter,0
 5450,Config class,0
 5451,Config class: init error,0
 5452,Config class: empty config file path provided,0
