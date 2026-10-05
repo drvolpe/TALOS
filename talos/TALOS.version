@@ -1,7 +1,8 @@
-branch: final1
+branch: 64bit
 
-commit 980cc7b4290e65903c136e0497da93f70674350f
-Author: aegis-1 <aegis@aegis-1.cern.ch>
-Date:   Wed Sep 23 16:15:37 2026 +0200
+commit 7ff24feaa09746cd99ae4db2ff1a4fb994fcde6c
+Merge: 12e76a2 c6456f5
+Author: volpe <marco.volponi@cern.ch>
+Date:   Mon Oct 5 14:52:27 2026 +0100
 
-    Mass compiled and built after the merge
+    Merge branch 'final1'

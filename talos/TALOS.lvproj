@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="26008000">
 	<Property Name="CCSymbols" Type="Str"></Property>
-	<Property Name="NI.LV.All.SaveVersion" Type="Str">20.0</Property>
+	<Property Name="NI.LV.All.SaveVersion" Type="Str">26.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="utf.calculate.project.code.coverage" Type="Bool">true</Property>
@@ -90,193 +90,88 @@
 			<Item Name="test_us.lvlib" Type="Library" URL="../Test Stuff/test_us.lvlib"/>
 		</Item>
 		<Item Name="Actor Framework.lvlibp" Type="LVLibp" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp">
-			<Item Name="Time-Delayed Send Message" Type="Folder">
-				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
-				<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
-				<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
+			<Item Name="Inspection API" Type="Folder">
+				<Item Name="AF Trace Format.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Inspection API/AF Trace Format/AF Trace Format.lvclass"/>
+				<Item Name="Get Actor Handles.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Inspection API/Get Actor Handles.vi"/>
+				<Item Name="Get Registry Update Event.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Inspection API/Get Registry Update Event.vi"/>
+				<Item Name="Ping Msg.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Inspection API/Ping msg/Ping Msg.lvclass"/>
+				<Item Name="Protected Actor Handle.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Inspection API/Protected Actor Handle/Protected Actor Handle.lvclass"/>
 			</Item>
 			<Item Name="Messages" Type="Folder">
-				<Item Name="Message.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message/Message.lvclass"/>
-				<Item Name="Stop Msg.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Stop Msg/Stop Msg.lvclass"/>
+				<Item Name="Time-Delayed Send Message" Type="Folder">
+					<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
+					<Item Name="Time-Delayed Send Message Core.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message Core.vi"/>
+					<Item Name="Time-Delayed Send Message.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Time-Delayed Send Message/Time-Delayed Send Message.vi"/>
+				</Item>
 				<Item Name="Last Ack.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/LastAck/Last Ack.lvclass"/>
 				<Item Name="Launch Nested Actor Msg.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Launch Nested Actor Msg/Launch Nested Actor Msg.lvclass"/>
+				<Item Name="Message.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message/Message.lvclass"/>
+				<Item Name="Report Error Msg.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Specialty Messages/Report Error Msg/Report Error Msg.lvclass"/>
+				<Item Name="Self-Addressed Msg.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Specialty Messages/Self-Addressed Msg/Self-Addressed Msg.lvclass"/>
+				<Item Name="Stop Msg.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Stop Msg/Stop Msg.lvclass"/>
+			</Item>
+			<Item Name="Tracing" Type="Folder">
+				<Item Name="support" Type="Folder">
+					<Item Name="Actor Registry.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/tracing/Support/Actor Registry.vi"/>
+					<Item Name="Generate Trace.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/tracing/Support/Generate Trace.vi"/>
+					<Item Name="Get Clone Name.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/tracing/Support/Get Clone Name.vi"/>
+					<Item Name="Localized Strings.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/tracing/Support/Localized Strings.vi"/>
+					<Item Name="Registration Mode.ctl" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/tracing/Support/Registration Mode.ctl"/>
+					<Item Name="TDM Registration Mode.ctl" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/tracing/Support/TDM Registration Mode.ctl"/>
+					<Item Name="TDM Registry.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/tracing/Support/TDM Registry.vi"/>
+					<Item Name="This Actor.ctl" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/tracing/Support/This Actor.ctl"/>
+				</Item>
+				<Item Name="Trace Generation" Type="Folder">
+					<Item Name="Generate Trace for Dropped Message.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/tracing/Trace Generation/Generate Trace for Dropped Message.vi"/>
+					<Item Name="Generate Trace for Message.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/tracing/Trace Generation/Generate Trace for Message.vi"/>
+					<Item Name="Generate Trace for New Actor.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/tracing/Trace Generation/Generate Trace for New Actor.vi"/>
+					<Item Name="Generate Trace for New Time Delayed Message.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/tracing/Trace Generation/Generate Trace for New Time Delayed Message.vi"/>
+					<Item Name="Generate Trace for Received Message.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/tracing/Trace Generation/Generate Trace for Received Message.vi"/>
+					<Item Name="Generate Trace for Skipped Time-Delayed Message.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/tracing/Trace Generation/Generate Trace for Skipped Time-Delayed Message.vi"/>
+					<Item Name="Generate Trace for Stopped Actor.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/tracing/Trace Generation/Generate Trace for Stopped Actor.vi"/>
+					<Item Name="Generate Trace for Stopped Time-Delayed Message.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/tracing/Trace Generation/Generate Trace for Stopped Time-Delayed Message.vi"/>
+				</Item>
+				<Item Name="Generate Custom Trace.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/tracing/Generate Custom Trace.vi"/>
 			</Item>
 			<Item Name="Actor.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Actor/Actor.lvclass"/>
-			<Item Name="Message Priority Queue.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Priority Queue/Message Priority Queue.lvclass"/>
-			<Item Name="Message Enqueuer.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Enqueuer/Message Enqueuer.lvclass"/>
-			<Item Name="Message Dequeuer.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Dequeuer/Message Dequeuer.lvclass"/>
-			<Item Name="Message Queue.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Queue/Message Queue.lvclass"/>
-			<Item Name="Init Actor Queues FOR TESTING ONLY.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Actor/Init Actor Queues FOR TESTING ONLY.vi"/>
-			<Item Name="Batch Msg.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Batch Msg/Batch Msg.lvclass"/>
-			<Item Name="Reply Msg.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Reply Msg/Reply Msg.lvclass"/>
-			<Item Name="Report Error Msg.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Report Error Msg/Report Error Msg.lvclass"/>
-			<Item Name="Self-Addressed Msg.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Self-Addressed Msg/Self-Addressed Msg.lvclass"/>
-			<Item Name="AF Debug.lvlib" Type="Library" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/resource/AFDebug/AF Debug.lvlib"/>
-			<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/Utility/High Resolution Relative Seconds.vi"/>
 			<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/Utility/error.llb/Error Cluster From Error Code.vi"/>
+			<Item Name="Get LV Class Default Value.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/Utility/LVClass/Get LV Class Default Value.vi"/>
+			<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/Utility/High Resolution Relative Seconds.vi"/>
+			<Item Name="Init Actor Queues FOR TESTING ONLY.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Actor/Init Actor Queues FOR TESTING ONLY.vi"/>
+			<Item Name="LV Config Read String.vi" Type="VI" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/resource/dialog/lvconfig.llb/LV Config Read String.vi"/>
+			<Item Name="Message Dequeuer.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Dequeuer/Message Dequeuer.lvclass"/>
+			<Item Name="Message Enqueuer.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Enqueuer/Message Enqueuer.lvclass"/>
+			<Item Name="Message Priority Queue.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Priority Queue/Message Priority Queue.lvclass"/>
+			<Item Name="Message Queue.lvclass" Type="LVClass" URL="../../builds/Actor Framework PPL/Actor Framework.lvlibp/1abvi3w/vi.lib/ActorFramework/Message Queue/Message Queue.lvclass"/>
 		</Item>
 		<Item Name="Close project.vi" Type="VI" URL="../Outside TALOS/Close project.vi"/>
 		<Item Name="Pre-Build Action.vi" Type="VI" URL="../Outside TALOS/Pre-Build Action.vi"/>
 		<Item Name="Post-Build Action.vi" Type="VI" URL="../Outside TALOS/Post-Build Action.vi"/>
 		<Item Name="Generate version file.vi" Type="VI" URL="../Outside TALOS/Generate version file.vi"/>
-		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="vi.lib" Type="Folder">
-				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
-				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
-				<Item Name="LVMapReplaceAction.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMapReplaceAction.ctl"/>
-				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
-				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
-				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
-				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
-				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
-				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
-				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
-				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
-				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
-				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
-				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
-				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
-				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
-				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
-				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
-				<Item Name="Equal Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Comparable/Equal Comparable.lvclass"/>
-				<Item Name="Equal Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Functor/Equal Functor.lvclass"/>
-				<Item Name="Equals.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Equals.vim"/>
-				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
-				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
-				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
-				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
-				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
-				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
-				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
-				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
-				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
-				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
-				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
-				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
-				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
-				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
-				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
-				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
-				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
-				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
-				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
-				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>
-				<Item Name="Multi Error Cluster.lvlib" Type="Library" URL="/&lt;vilib&gt;/MultiError/TokenizeJSON/Multi Error Cluster.lvlib"/>
-				<Item Name="Less Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Functor/Less Functor.lvclass"/>
-				<Item Name="Less Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Less/Less Comparable/Less Comparable.lvclass"/>
-				<Item Name="Less.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Less.vim"/>
-				<Item Name="Sort 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Sort 1D Array Core.vim"/>
-				<Item Name="Sort 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Sort 1D Array.vim"/>
-				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
-				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
-				<Item Name="Match 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Match 1D String Array.vi"/>
-				<Item Name="Match Regular Expression_Execute.vi" Type="VI" URL="/&lt;vilib&gt;/regexp/Match Regular Expression_Execute.vi"/>
-				<Item Name="Match Regular Expression_ExecuteOffsets.vi" Type="VI" URL="/&lt;vilib&gt;/regexp/Match Regular Expression_ExecuteOffsets.vi"/>
-				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
-				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="TRef Get All FP References.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef Get All FP References.vi"/>
-				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
-				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
-				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
-				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
-				<Item Name="Qualified Name Array To Single String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Qualified Name Array To Single String.vi"/>
-				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
-				<Item Name="TCP Get Raw Net Object.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Get Raw Net Object.vi"/>
-				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
-				<Item Name="Create NI GUID.vi" Type="VI" URL="/&lt;vilib&gt;/string/Create NI GUID.vi"/>
-				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
-				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
-				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
-				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
-				<Item Name="Two-Way Comparison Versus Array Element.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Two-Way Comparison Versus Array Element.vim"/>
-				<Item Name="Search Sorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Sorted 1D Array.vim"/>
-				<Item Name="Read Class Ancestry Without Loading.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Read Class Ancestry Without Loading.vi"/>
-				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
-				<Item Name="Is Class Not Interface Without Loading.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Is Class Not Interface Without Loading.vi"/>
-				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
-				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
-				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
-				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
-				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
-				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
-				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
-				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
-				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
-				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
-				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
-				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
-				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
-				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
-				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
-				<Item Name="Check File Permissions.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check File Permissions.vi"/>
-				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
-				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
-				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
-				<Item Name="Set Difference.vim" Type="VI" URL="/&lt;vilib&gt;/set operations/Set Difference.vim"/>
-				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
-			</Item>
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="openg_variant.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/openg_variant.lvlib"/>
-				<Item Name="openg_error.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/openg_error.lvlib"/>
-				<Item Name="openg_string.lvlib" Type="Library" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/openg_string.lvlib"/>
-			</Item>
-			<Item Name="wsock32.dll" Type="Document" URL="wsock32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="System" Type="VI" URL="System">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="mscorlib" Type="VI" URL="mscorlib">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
-			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-		</Item>
+		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="TALOS" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{E542EEE4-06F0-4521-A7CC-5EC7A6DDE5A4}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">TALOS</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW/builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/LabVIEW Code/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Post-Build Action.vi</Property>
 				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/Pre-Build Action.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{28EAA83C-9613-4D63-BE1B-20C861522DFD}</Property>
 				<Property Name="Bld_userLogFile" Type="Path">/C/LabVIEW/builds/logs/TALOS_build_log.txt</Property>
-				<Property Name="Bld_version.build" Type="Int">431</Property>
-				<Property Name="Bld_version.major" Type="Int">4</Property>
-				<Property Name="Bld_version.minor" Type="Int">99</Property>
+				<Property Name="Bld_version.build" Type="Int">432</Property>
+				<Property Name="Bld_version.major" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">TALOS_PPL.lvlibp</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW/builds/NI_AB_PROJECTNAME/TALOS_PPL.lvlibp</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/LabVIEW Code/builds/NI_AB_PROJECTNAME/TALOS_PPL.lvlibp</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW/builds/NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/LabVIEW Code/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{832D7B4E-C691-4013-A61A-9D720DD0EFB8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{B44FDBE8-9F1F-45FA-BCD4-F39A6D8ADE87}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TALOS/TALOS.lvlib</Property>
